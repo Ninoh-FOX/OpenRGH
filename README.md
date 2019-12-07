@@ -47,7 +47,7 @@ https://drive.google.com/file/d/1kMVWTWTym6TfN3_nrM9N2QSFf2dUxxjp/view
 4. Reboot
 5. If system fails to boot, press Y to boot to last working kernel, or X to boot to last working rootfs. X+Y will load your previous OS version.
   
-## Instructions for a clear update/ fix internal sdcard or change of internal sdcadr:<br>
+## Instructions for a clear update/ fix internal sdcard or change of internal sdcard:<br>
 1. Download a base system from https://rs97.bitgala.xyz/RG-350/Latest%20Firmware/ (for example 1.4 or 1.5)
 
 ### for Windows:<br>
