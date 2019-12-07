@@ -15,7 +15,7 @@ https://github.com/Ninoh-FOX/OpenRGH/releases/tag/1.7.8
 # update firmware 1.7.7: <br>
 https://drive.google.com/file/d/13iNEBQlbFkueCSAsnWpv8cVGKJv8ihpX/view
 
-# update firmware 1.7.5beta4: <br>
+# update firmware 1.7.6: <br>
 https://drive.google.com/file/d/1kMVWTWTym6TfN3_nrM9N2QSFf2dUxxjp/view
 
 ## Changelog:<br>
