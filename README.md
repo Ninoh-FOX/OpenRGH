@@ -24,6 +24,8 @@ https://drive.google.com/file/d/1kMVWTWTym6TfN3_nrM9N2QSFf2dUxxjp/view
 1. lazy_itable_init = 0 and lazy_journal_init = 0 support added to EXT4 file system.
 2. Display version in System Info app.
 
+![](https://fotos.subefotos.com/d74d4f1ba67f0d5f556aa7a43e7c7c84o.jpg)
+
 ### 1.7.7:<br>
 1. exfAT support added - no more need to download a utility to format 64GB+ SD cards
 2. Default SD card mount changed to /media/sdcard - No having to re-do paths when swapping SD cards
