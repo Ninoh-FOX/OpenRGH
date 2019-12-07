@@ -9,14 +9,21 @@
 * HDMI support - 2.2.x
 * Vulkan?? - Future
 
-# update firmware 1.7.5beta5: <br>
+# update firmware 1.7.8: <br>
+
+# update firmware 1.7.7: <br>
 https://drive.google.com/file/d/13iNEBQlbFkueCSAsnWpv8cVGKJv8ihpX/view
 
 # update firmware 1.7.5beta4: <br>
 https://drive.google.com/file/d/1kMVWTWTym6TfN3_nrM9N2QSFf2dUxxjp/view
 
 ## Changelog:<br>
-### Beta5:<br>
+
+### 1.7.8:<br>
+1. lazy_itable_init = 0 and lazy_journal_init = 0 support added to EXT4 file system.
+2. Display version in System Info app.
+
+### 1.7.7:<br>
 1. exfAT support added - no more need to download a utility to format 64GB+ SD cards
 2. Default SD card mount changed to /media/sdcard - No having to re-do paths when swapping SD cards
 3. Auto swap file and partition resize - This takes a while, allow it to finish.  Progress will be shown on screen during first boot
