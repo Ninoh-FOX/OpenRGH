@@ -10,6 +10,7 @@
 * Vulkan?? - Future
 
 # update firmware 1.7.8: <br>
+https://github.com/Ninoh-FOX/OpenRGH/releases/tag/1.7.8
 
 # update firmware 1.7.7: <br>
 https://drive.google.com/file/d/13iNEBQlbFkueCSAsnWpv8cVGKJv8ihpX/view
