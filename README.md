@@ -23,7 +23,7 @@ https://drive.google.com/file/d/1kMVWTWTym6TfN3_nrM9N2QSFf2dUxxjp/view
 
 ## Changelog:<br>
 
-### 1.7.8:<br>
+### 1.7.8.1:<br>
 1. boot partition now is mount too in /media/system in rw mode for recovery the system from pc is this is possible.
 ### intructions for recovery or external update:<br>
 
@@ -46,6 +46,7 @@ ssh root@10.1.1.2
 RG350:media/data/local/home# reboot
 
 2. Gmenu2x now can link .opk and .dge files.
+3. New boot logo
 
 ### 1.7.8:<br>
 1. lazy_itable_init = 0 and lazy_journal_init = 0 support added to EXT4 file system.
