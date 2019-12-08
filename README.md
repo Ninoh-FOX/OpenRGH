@@ -27,6 +27,8 @@ https://drive.google.com/file/d/1kMVWTWTym6TfN3_nrM9N2QSFf2dUxxjp/view
 1. boot partition now is mount too in /media/system in rw mode for recovery the system from pc is this is possible.
 ### intructions for recovery or external update:<br>
 
+thanks to https://github.com/gcwnow wiki
+
 You can copy the kernel or rootfs to the internal SD card of the RG350 using FTP, SFTP or SCP. I recommend SCP since it is just one line on the command prompt. It does require setting up SSH keypair authentication though.
 
 for kernel
