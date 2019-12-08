@@ -9,6 +9,9 @@
 * HDMI support - 2.2.x
 * Vulkan?? - Future
 
+# update firmware 1.7.8.1: <br>
+https://github.com/Ninoh-FOX/OpenRGH/releases/tag/1.7.8.1
+
 # update firmware 1.7.8: <br>
 https://github.com/Ninoh-FOX/OpenRGH/releases/tag/1.7.8
 
@@ -19,6 +22,30 @@ https://drive.google.com/file/d/13iNEBQlbFkueCSAsnWpv8cVGKJv8ihpX/view
 https://drive.google.com/file/d/1kMVWTWTym6TfN3_nrM9N2QSFf2dUxxjp/view
 
 ## Changelog:<br>
+
+### 1.7.8:<br>
+1. boot partition now is mount too in /media/system in rw mode for recovery the system from pc is this is possible.
+### intructions for recovery or external update:<br>
+
+You can copy the kernel or rootfs to the internal SD card of the RG350 using FTP, SFTP or SCP. I recommend SCP since it is just one line on the command prompt. It does require setting up SSH keypair authentication though.
+
+for kernel
+
+scp vmlinuz.bin root@10.1.1.2:/media/system/
+scp modules.squashfs root@10.1.1.2:/media/system/update_m.bin
+
+for rootfs
+
+scp rootfs.squashfs root@10.1.1.2:/media/system/update_r.bin
+
+Reboot the Zero to activate the new kernel or rootfs. Don't use the reset button: part of the kernel may not have been flushed from the write cache yet.
+
+You can use:
+
+ssh root@10.1.1.2
+RG350:media/data/local/home# reboot
+
+2. Gmenu2x now can link .opk and .dge files.
 
 ### 1.7.8:<br>
 1. lazy_itable_init = 0 and lazy_journal_init = 0 support added to EXT4 file system.
