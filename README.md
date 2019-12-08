@@ -38,7 +38,7 @@ for rootfs
 
 scp rootfs.squashfs root@10.1.1.2:/media/system/update_r.bin
 
-Reboot the Zero to activate the new kernel or rootfs. Don't use the reset button: part of the kernel may not have been flushed from the write cache yet.
+Reboot the RG350 to activate the new kernel or rootfs. Don't use the reset button: part of the kernel or of the rootfs may not have been flushed from the write cache yet.
 
 You can use:
 
