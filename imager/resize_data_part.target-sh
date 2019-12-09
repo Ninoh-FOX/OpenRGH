@@ -1,0 +1,20 @@
+#!/bin/sh
+
+DEVICE=mmcblk0
+PART_NUM=2
+
+DEVICE_SIZE=`cat /sys/block/${DEVICE}/size`
+START=`partx /dev/${DEVICE} -n ${PART_NUM} -g -o start`
+SIZE=$((${DEVICE_SIZE} - ${START}))
+
+echo "${START},${SIZE}" | sfdisk --no-reread -uS -N ${PART_NUM} /dev/${DEVICE}
+
+clear
+echo 1 > /sys/devices/virtual/vtconsole/vtcon1/bind
+echo "Resizing the data partition. Please be patient."
+
+set +e
+resizepart /dev/${DEVICE} ${PART_NUM} ${SIZE}
+resize2fs /dev/${DEVICE}p${PART_NUM}
+
+rm $0
