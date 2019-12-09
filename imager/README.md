@@ -1,4 +1,4 @@
-GCW Zero Image Generation Tools
+GCW Zero Image Generation Tools port to RG350
 ======
 
 The installation uses four files:
