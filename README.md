@@ -78,7 +78,7 @@ RG350:media/data/local/home# reboot
 5. If system fails to boot, press Y to boot to last working kernel, or X to boot to last working rootfs. X+Y will load your previous OS version.
   
 ## Instructions for a clear update/ fix internal sdcard or change of internal sdcard:<br>
-1. Download a base system from https://rs97.bitgala.xyz/RG-350/Latest%20Firmware/ (for example 1.4 or 1.5)
+1. Download a base system "sd_imagen.bin" from releases.
 
 ### for Windows:<br>
 2. Format the new sdcard / internel sdcard with SD FORMATTER 5.0.1 ( https://www.sdcard.org/downloads/formatter/ ) two times.
