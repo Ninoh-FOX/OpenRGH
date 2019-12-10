@@ -39,7 +39,8 @@ https://drive.google.com/file/d/1kMVWTWTym6TfN3_nrM9N2QSFf2dUxxjp/view
 
 ### 1.7.8.1:<br>
 1. boot partition now is mount too in /media/system in rw mode for recovery the system from pc if this is possible.
-### intructions for recovery or external update:<br>
+
+## intructions for recovery or external update:<br>
 
 thanks to https://github.com/gcwnow wiki
 
