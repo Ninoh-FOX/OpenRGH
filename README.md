@@ -84,7 +84,7 @@ RG350:media/data/local/home# reboot
 
 ### for Windows:<br>
 2. Format the new sdcard / internel sdcard with SD FORMATTER 5.0.1 ( https://www.sdcard.org/downloads/formatter/ ) two times.
-3. Download Win32 disk imager ( https://sourceforge.net/projects/win32diskimager/ ) and flash (whiter) the FW base imagen in the sdcard.
+3. Download Win32 disk imager ( https://sourceforge.net/projects/win32diskimager/ ) and flash (writer) the FW base imagen in the sdcard.
 #### 4. NOT RESIZER THE EXT4 PARTITION IN WINDOWS!!<br> only put the internal sd in the console and follow the instructions.
 
 ### for Linux:<br>
