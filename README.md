@@ -32,7 +32,8 @@ https://drive.google.com/file/d/1kMVWTWTym6TfN3_nrM9N2QSFf2dUxxjp/view
 
 ### 1.7.8.2:<br>
 
-1. change boot logo.
+1. change boot logo.<br>
+![](https://raw.githubusercontent.com/Ninoh-FOX/RG350-ROGUE-CFW/master/logos/67d0e5b053de2d8c2d813fe0459d11a2o.jpg)
 2. New name firmware.
 3. Update some libs.
 4. Gmenu2x now is mount in /local/home/.gmenu2x
