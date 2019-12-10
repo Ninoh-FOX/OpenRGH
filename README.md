@@ -33,12 +33,12 @@ thanks to https://github.com/gcwnow wiki
 
 You can copy the kernel or rootfs to the internal SD card of the RG350 using FTP, SFTP or SCP. I recommend SCP since it is just one line on the command prompt. It does require setting up SSH keypair authentication though.
 
-for kernel
+**for kernel**
 
 scp vmlinuz.bin root@10.1.1.2:/media/system/
 scp modules.squashfs root@10.1.1.2:/media/system/update_m.bin
 
-for rootfs
+**for rootfs**
 
 scp rootfs.squashfs root@10.1.1.2:/media/system/update_r.bin
 
@@ -84,12 +84,12 @@ RG350:media/data/local/home# reboot
 ## Instructions for a clear update/ fix internal sdcard or change of internal sdcard:<br>
 1. Download a base system "sd_image.bin" from releases.
 
-### for Windows:<br>
+### **for Windows:<br>**
 2. Format the new sdcard / internel sdcard with SD FORMATTER 5.0.1 ( https://www.sdcard.org/downloads/formatter/ ) two times.
 3. Download Win32 disk imager ( https://sourceforge.net/projects/win32diskimager/ ) and flash (writer) the FW base imagen in the sdcard.
 #### 4. NOT RESIZER THE EXT4 PARTITION IN WINDOWS!!<br> only put the internal sd in the console and follow the instructions.
 
-### for Linux:<br>
+### **for Linux:<br>**
 2. Format the new sdcard / internel sdcard with gnome-disk-utility.
 3. Flash the FW base imagen in the sdcard with gnome-disk-utility.
    Or type in a terminal:
