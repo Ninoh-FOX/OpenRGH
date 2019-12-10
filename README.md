@@ -94,5 +94,5 @@ RG350:media/data/local/home# reboot
 3. Flash the FW base imagen in the sdcard with gnome-disk-utility.
    Or type in a terminal:
    
-   sudo dd if=sd_image.bin of=/dev/[sdcard mount poin]
+   sudo dd if=sd_image.bin of=/dev/[sdcard mount point]
 #### 4. Not resize!! Put the internal sd in the console and follow the instructions.
