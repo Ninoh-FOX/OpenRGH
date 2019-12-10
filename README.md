@@ -35,7 +35,7 @@ You can copy the kernel or rootfs to the internal SD card of the RG350 using FTP
 
 **for kernel**
 
-scp vmlinuz.bin root@10.1.1.2:/media/system/
+scp vmlinuz.bin root@10.1.1.2:/media/system/<br>
 scp modules.squashfs root@10.1.1.2:/media/system/update_m.bin
 
 **for rootfs**
