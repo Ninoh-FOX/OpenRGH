@@ -93,4 +93,4 @@ RG350:media/data/local/home# reboot
    Or type in a terminal:
    
    sudo dd if=sd_image.bin of=/dev/[sdcard mount poin]
-#### 4. check the sdcard with Gparted (not resize), put the internal sd in the console and follow the instructions.
+#### 4. Not resize!! Put the internal sd in the console and follow the instructions.
