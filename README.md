@@ -13,6 +13,9 @@ Thanks to Tonyjin (https://github.com/tonyjih), Pcercuei (https://github.com/pce
 - [ ] HDMI support - 2.2.x
 - [ ] Vulkan?? - Future
 
+# update firmware 1.7.8.2: <br>
+https://github.com/Ninoh-FOX/OpenRGH/releases/tag/1.7.8.2
+
 # update firmware 1.7.8.1: <br>
 https://github.com/Ninoh-FOX/OpenRGH/releases/tag/1.7.8.1
 
@@ -26,6 +29,13 @@ https://drive.google.com/file/d/13iNEBQlbFkueCSAsnWpv8cVGKJv8ihpX/view
 https://drive.google.com/file/d/1kMVWTWTym6TfN3_nrM9N2QSFf2dUxxjp/view
 
 ## Changelog:<br>
+
+### 1.7.8.2:<br>
+
+1. change boot logo.
+2. New name firmware.
+3. Update some libs.
+4. Gmenu2x now is mount in /local/home/.gmenu2x
 
 ### 1.7.8.1:<br>
 1. boot partition now is mount too in /media/system in rw mode for recovery the system from pc if this is possible.
@@ -77,7 +87,7 @@ RG350:media/data/local/home# reboot
 12. update libshake from original code: https://github.com/zear/libShake
 
 ## Instructions:<br>
-1. Place in /media/data/apps or /media/<your SD card>/apps
+1. Place in /media/data/apps or /media/sdcard/apps
 2. Run from gmenu2x (not currently working in gmenunx)
 3. allow process to complete
 4. Reboot
