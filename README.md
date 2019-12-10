@@ -90,4 +90,7 @@ RG350:media/data/local/home# reboot
 ### for Linux:<br>
 2. Format the new sdcard / internel sdcard with gnome-disk-utility.
 3. Flash the FW base imagen in the sdcard with gnome-disk-utility.
+   Or type in a terminal:
+   
+   sudo dd if=sd_image.bin of=/dev/[sdcard mount poin]
 #### 4. check the sdcard with Gparted (not resize), put the internal sd in the console and follow the instructions.
