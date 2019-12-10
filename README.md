@@ -39,33 +39,9 @@ https://drive.google.com/file/d/1kMVWTWTym6TfN3_nrM9N2QSFf2dUxxjp/view
 
 ### 1.7.8.1:<br>
 1. boot partition now is mount too in /media/system in rw mode for recovery the system from pc if this is possible.
-
-## intructions for recovery or external update:<br>
-
-thanks to https://github.com/gcwnow wiki
-
-You can copy the kernel or rootfs to the internal SD card of the RG350 using FTP, SFTP or SCP. I recommend SCP since it is just one line on the command prompt. It does require setting up SSH keypair authentication though.
-
-**for kernel**
-
-scp vmlinuz.bin root@10.1.1.2:/media/system/<br>
-scp modules.squashfs root@10.1.1.2:/media/system/update_m.bin
-
-**for rootfs**
-
-scp rootfs.squashfs root@10.1.1.2:/media/system/update_r.bin
-
-Reboot the RG350 to activate the new kernel or rootfs. Don't use the reset button: part of the kernel or of the rootfs may not have been flushed from the write cache yet.
-
-You can use:
-
-ssh root@10.1.1.2
-RG350:media/data/local/home# reboot
-
 2. Gmenu2x now can link .opk and .dge files.
 3. New boot logo.
 4. New flasher sdcatd imagen (thanks to https://github.com/gcwnow/imager )
-
 
 ### 1.7.8:<br>
 1. lazy_itable_init = 0 and lazy_journal_init = 0 support added to EXT4 file system.
@@ -86,6 +62,7 @@ RG350:media/data/local/home# reboot
 10. Change file system table.
 11. Restore USB-HID suport.
 12. update libshake from original code: https://github.com/zear/libShake
+
 
 ## Instructions:<br>
 1. Place in /media/data/apps or /media/sdcard/apps
@@ -109,3 +86,25 @@ RG350:media/data/local/home# reboot
    
    sudo dd if=sd_image.bin of=/dev/[sdcard mount point]
 #### 4. Not resize!! Put the internal sd in the console and follow the instructions.
+
+## intructions for recovery or external update:<br>
+
+thanks to https://github.com/gcwnow wiki
+
+You can copy the kernel or rootfs to the internal SD card of the RG350 using FTP, SFTP or SCP. I recommend SCP since it is just one line on the command prompt. It does require setting up SSH keypair authentication though.
+
+**for kernel**
+
+scp vmlinuz.bin root@10.1.1.2:/media/system/<br>
+scp modules.squashfs root@10.1.1.2:/media/system/update_m.bin
+
+**for rootfs**
+
+scp rootfs.squashfs root@10.1.1.2:/media/system/update_r.bin
+
+Reboot the RG350 to activate the new kernel or rootfs. Don't use the reset button: part of the kernel or of the rootfs may not have been flushed from the write cache yet.
+
+You can use:
+
+ssh root@10.1.1.2
+RG350:media/data/local/home# reboot
