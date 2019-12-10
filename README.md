@@ -66,7 +66,7 @@ https://drive.google.com/file/d/1kMVWTWTym6TfN3_nrM9N2QSFf2dUxxjp/view
 
 
 ## Instructions:<br>
-1. Place in /media/data/apps or /media/sdcard/apps
+1. Place the update opk file in /media/data/apps or /media/sdcard/apps
 2. Run from gmenu2x (not currently working in gmenunx)
 3. allow process to complete
 4. Reboot
@@ -91,6 +91,8 @@ https://drive.google.com/file/d/1kMVWTWTym6TfN3_nrM9N2QSFf2dUxxjp/view
 ## intructions for recovery or external update:<br>
 
 thanks to https://github.com/gcwnow wiki
+
+This work for GMENUNX.
 
 You can copy the kernel or rootfs to the internal SD card of the RG350 using FTP, SFTP or SCP. I recommend SCP since it is just one line on the command prompt. It does require setting up SSH keypair authentication though.
 
