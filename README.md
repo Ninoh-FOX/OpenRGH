@@ -1,13 +1,15 @@
-# OpenRGH<br>
+# RG350 firmware "Rogue" edition<br>
 ### An independent fork of the OpenDingux project, focused on improving the user experience. 
 
+Thanks to Tonyjin (https://github.com/tonyjih), Pcercuei (https://github.com/pcercuei), Mthuurne (https://github.com/mthuurne) and opendingux (https://github.com/OpenDingux).
+
 ## Goals:
-* exFAT support, auto-resize, constant sdcard mount point - 1.7.5 branch
-* Replace Gmenu2x with GmenuNX, Suspend capability - 1.8.x branch
-* Kernel update -2.x branch
-* Modernize 3D APIs - 2.1.x
-* HDMI support - 2.2.x
-* Vulkan?? - Future
+- [X] exFAT support, auto-resize, constant sdcard mount point, show version - 1.7.5 branch
+- [ ] Replace Gmenu2x with GmenuNX, Suspend capability - 1.8.x branch
+- [ ] Kernel update -2.x branch
+- [ ] Modernize 3D APIs - 2.1.x
+- [ ] HDMI support - 2.2.x
+- [ ] Vulkan?? - Future
 
 # update firmware 1.7.8.1: <br>
 https://github.com/Ninoh-FOX/OpenRGH/releases/tag/1.7.8.1
