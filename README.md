@@ -6,6 +6,8 @@
 Thanks to Tonyjin for toolchain (https://github.com/tonyjih)
 Special Thanks to Pcercuei (https://github.com/pcercuei), Mthuurne (https://github.com/mthuurne) and opendingux (https://github.com/OpenDingux) for the original code base system.
 
+### instrucciones en español más abajo.
+
 ## Goals:
 - [X] exFAT support, auto-resize, constant sdcard mount point, show version - 1.7.5 branch
 - [ ] Replace Gmenu2x with GmenuNX, Suspend capability - 1.8.x branch
@@ -122,7 +124,7 @@ RG350:media/data/local/home# reboot
 Gracias a Tonyjih por el toolchain (https://github.com/tonyjih)
 Agradecimiento especial para Pcercuei (https://github.com/pcercuei), Mthuurne (https://github.com/mthuurne) y opendingux (https://github.com/OpenDingux) por el codigo del sistema base.
 
-## Goals:
+## Metas:
 - [X] Soporte exFAT, auto-redimensionado, sdcard es montada siempre como sdcard, muestra de la version - 1.7.5 branch
 - [ ] Cambiar gmenu2nx por gmenunx cuando sea totalmente compatible, soporte para supencion - 1.8.x branch
 - [ ] actualizacion del kernel -2.x branch
@@ -182,7 +184,7 @@ https://drive.google.com/file/d/1kMVWTWTym6TfN3_nrM9N2QSFf2dUxxjp/view
 12. Actualizado libshake desde el codigo original: https://github.com/zear/libShake
 
 
-## Instructions:<br>
+## Instrucciones:<br>
 ### Nota: Si es la primera vez que actualizas este firmware, lo idoneo es que uses el archivo sd_image.bin, luego ya despues puedes seguir actualizando por opk.
 
 ## Instrucciones por OPK (no es necesario abrir la consola):
