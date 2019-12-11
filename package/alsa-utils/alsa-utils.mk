@@ -14,7 +14,7 @@ ALSA_UTILS_DEPENDENCIES = host-gettext host-pkgconf alsa-lib \
 	$(if $(BR2_PACKAGE_NCURSES),ncurses)
 
 ALSA_UTILS_CONF_ENV = \
-	ac_cv_prog_ncurses6_config=$(STAGING_DIR)/bin/ncurses6-config
+	ac_cv_prog_ncurses5_config=$(STAGING_DIR)/bin/ncurses6-config
 
 ALSA_UTILS_CONF_OPT = \
 	--disable-xmlto \

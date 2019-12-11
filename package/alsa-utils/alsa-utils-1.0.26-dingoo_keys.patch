@@ -1,0 +1,21 @@
+diff --git a/alsamixer/mixer_widget.c b/alsamixer/mixer_widget.c
+index caaf777..a319e10 100644
+--- a/alsamixer/mixer_widget.c
++++ b/alsamixer/mixer_widget.c
+@@ -586,6 +586,7 @@ static void on_handle_key(int key)
+ 		break;
+ 	case 'M':
+ 	case 'm':
++	case ' ':
+ 		toggle_mute(LEFT | RIGHT);
+ 		break;
+ 	case 'B':
+@@ -601,7 +602,7 @@ static void on_handle_key(int key)
+ 	case '.':
+ 		toggle_mute(RIGHT);
+ 		break;
+-	case ' ':
++	case '\n':
+ 		toggle_capture(LEFT | RIGHT);
+ 		break;
+ 	case KEY_IC:
