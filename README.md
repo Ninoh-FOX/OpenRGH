@@ -195,7 +195,7 @@ https://drive.google.com/file/d/1kMVWTWTym6TfN3_nrM9N2QSFf2dUxxjp/view
 4. Reinicia
 5. Si ves que el sistema falla al reiniciar, presiona Y para cargar el ultimo kernel que funcionó, o X para cargar el ultimo sistema de archivos que funcionó. X+Y para cargar la ultima version del sistema que funcionó. Esto es una carga temporar, pero te servirá para volver a intentarlo o para probar otro metodo de actualización.
   
-## Instruciones para una actualizacion limpia, corregir targetas defectuosas o simplemente cambiar de microsd:<br>
+## Instruciones para una actualizacion limpia, corregir tarjetas defectuosas o simplemente cambiar de microsd:<br>
 ## Nota: este metodo borra la sd, has copia de tus datos antes.
 
 1. Descarga el sistema base "sd_image.bin" del release.
