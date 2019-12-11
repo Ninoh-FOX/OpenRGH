@@ -69,7 +69,7 @@ https://drive.google.com/file/d/1kMVWTWTym6TfN3_nrM9N2QSFf2dUxxjp/view
 
 
 ## Instructions:<br>
-### NOTE: If is your first install time for this cfw, the optimus is user sd_image.bin, afte, you can use alway the opks files for update.
+### NOTE: If is your first install time for this cfw, the optimus is user sd_image.bin, afte, you can use alway the opks files for update. sd_image.bin erase all data in sdcard!! If you gone from another CFW is better that you make a backup of the folders local/home and local/app first.
 
 ## Instruction for update from OPK update file (Not need open the console):
 1. Place the update opk file in /media/data/apps or /media/sdcard/apps
@@ -79,6 +79,7 @@ https://drive.google.com/file/d/1kMVWTWTym6TfN3_nrM9N2QSFf2dUxxjp/view
 5. If system fails to boot, press Y to boot to last working kernel, or X to boot to last working rootfs. X+Y will load your previous OS version.
   
 ## Instructions for a clear update/ fix internal sdcard or change of internal sdcard:<br>
+## NOTE: This metode erase all microsd, do a copy of all your files before.
 1. Download a base system "sd_image.bin" from releases.
 
 ### **for Windows:<br>**
@@ -158,7 +159,7 @@ https://drive.google.com/file/d/1kMVWTWTym6TfN3_nrM9N2QSFf2dUxxjp/view
 4. Gmenu2x ahora es linkeado en /local/home/.gmenu2x
 
 ### 1.7.8.1:<br>
-1. la panticion boot ahora es tambien montada en /media/system en modo escritura, para poder recuperar la consola sin abrirla en caso de fallo dentro de lo posible.
+1. la particion boot ahora es tambien montada en /media/system en modo escritura, para poder recuperar la consola sin abrirla en caso de fallo dentro de lo posible.
 2. Gmenu2x ahora puede enlazar archivos .opk y .dge.
 3. Nuevo logo de carga.
 4. Nueva imagen de la tarjeta MicroSD (Gracias a https://github.com/gcwnow/imager )
@@ -185,7 +186,7 @@ https://drive.google.com/file/d/1kMVWTWTym6TfN3_nrM9N2QSFf2dUxxjp/view
 
 
 ## Instrucciones:<br>
-### Nota: Si es la primera vez que actualizas este firmware, lo idoneo es que uses el archivo sd_image.bin, luego ya despues puedes seguir actualizando por opk.
+### Nota: Si es la primera vez que actualizas este firmware, lo idoneo es que uses el archivo sd_image.bin, luego ya despues puedes seguir actualizando por opk. Impotante, sd_image.bin borra toda la sd, por lo que primero, y si vienes de otro FW tambien, es mejor que hagas copias de las carpetas /local/home y /local/apps antes de actualizar.
 
 ## Instrucciones por OPK (no es necesario abrir la consola):
 1. Coloca el update en OPK /media/data/apps o /media/sdcard/apps
@@ -195,6 +196,8 @@ https://drive.google.com/file/d/1kMVWTWTym6TfN3_nrM9N2QSFf2dUxxjp/view
 5. Si ves que el sistema falla al reiniciar, presiona Y para cargar el ultimo kernel que funcionó, o X para cargar el ultimo sistema de archivos que funcionó. X+Y para cargar la ultima version del sistema que funcionó. Esto es una carga temporar, pero te servirá para volver a intentarlo o para probar otro metodo de actualización.
   
 ## Instruciones para una actualizacion limpia, corregir targetas defectuosas o simplemente cambiar de microsd:<br>
+## Nota: este metodo borra la sd, has copia de tus datos antes.
+
 1. Descarga el sistema base "sd_image.bin" del release.
 
 ### **para Windows:<br>**
