@@ -1,13 +1,13 @@
-config BR2_PACKAGE_LIBSHAKE
-	bool "libshake"
+config BR2_PACKAGE_LIBSHAKE2
+	bool "libshake2"
 	help
 	  A simple, cross-platform haptic library.
 
 	  https://github.com/zear/libShake
 
-if BR2_PACKAGE_LIBSHAKE
+if BR2_PACKAGE_LIBSHAKE2
 
-config BR2_PACKAGE_LIBSHAKE_PLATFORM
+config BR2_PACKAGE_LIBSHAKE2_PLATFORM
 	string "Target platform"
 
 endif
