@@ -1,0 +1,18 @@
+config BR2_PACKAGE_ESOTERIC
+	bool "esoteric"
+	select BR2_PACKAGE_DEJAVU
+	select BR2_PACKAGE_LIBPNG
+	select BR2_PACKAGE_SDL
+	select BR2_PACKAGE_SDL_TTF
+	help
+	  Application menu for devices with a 320x240 screen and buttons.
+
+	  This is a forked version with cleanups, targeted initially at the rg-350
+
+	  https://github.com/podulator/esoteric
+if BR2_PACKAGE_ESOTERIC
+
+config BR2_PACKAGE_ESOTERIC_PLATFORM
+	string "Target platform"
+
+endif
