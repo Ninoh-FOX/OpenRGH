@@ -9,8 +9,6 @@ config BR2_PACKAGE_NCURSES
 
 	  http://www.gnu.org/software/ncurses/
 
-if BR2_PACKAGE_NCURSES
-
 config BR2_PACKAGE_NCURSES_WCHAR
 	bool "enable wide char support"
 	depends on BR2_USE_WCHAR
@@ -31,5 +29,3 @@ config BR2_PACKAGE_NCURSES_ADDITIONAL_TERMINFO
 
 	  The terminfo filenames should have the single letter path
 	  prefix. e.g. t/tmux.
-
-endif
