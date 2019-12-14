@@ -43,7 +43,7 @@ https://drive.google.com/file/d/1kMVWTWTym6TfN3_nrM9N2QSFf2dUxxjp/view
 ![](https://raw.githubusercontent.com/Ninoh-FOX/RG350-ROGUE-CFW/master/logo_rg350.jpg)
 2. All references to OpenDingux removed, except in the system information as thanks for the original base system.
 3. Gmenu2x now read and write all from home.
-4. Esoteric add how optional launcher in the system.
+4. Esoteric add how optional launcher in the system. (Thanks to Podulator https://github.com/podulator/esoteric).
 5. Update RG350Tests in sd_imagen (thanks to https://github.com/RafaVico).
 6. Now sd_imagen too in opk file, you can now reflash the sdcard without open the console (this erase all).
 7. Now work updates and flashers opks in another launchers.
@@ -182,7 +182,7 @@ https://drive.google.com/file/d/1kMVWTWTym6TfN3_nrM9N2QSFf2dUxxjp/view
 ![](https://raw.githubusercontent.com/Ninoh-FOX/RG350-ROGUE-CFW/master/logo_rg350.jpg)
 2. Se eliminaron todas las referencias a OpenDingux, excepto en la información del sistema como agradecimiento por el sistema base original.
 3. Gmenu2x ahora lee y escribe todo desde HOME.
-4. Esoteric añadido cómo lanzador opcional en el sistema.
+4. Esoteric añadido cómo lanzador opcional en el sistema. (gracias a Podulator https://github.com/podulator/esoteric).
 5. Actualización de RG350test en sd_imagen (gracias a https://github.com/RafaVico).
 6. Ahora sd_imagen también en archivo opk, ahora puede actualizar la tarjeta sd sin abrir la consola (esto borra todo).
 7. Ahora funcionan las opks de actualizaciones y flashes en otros lanzadores.
