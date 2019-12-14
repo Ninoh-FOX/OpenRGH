@@ -10,11 +10,15 @@ Special Thanks to Pcercuei (https://github.com/pcercuei), Mthuurne (https://gith
 
 ## Goals:
 - [X] exFAT support, auto-resize, constant sdcard mount point, show version - 1.7.5 branch
-- [ ] Replace Gmenu2x with GmenuNX, Suspend capability - 1.8.x branch
+- [X] Add Esoteric how optional launcher - 1.7.9 branch
+- [ ] Suspend capability - 1.8.x branch
 - [ ] Kernel update -2.x branch
 - [ ] Modernize 3D APIs - 2.1.x
 - [ ] HDMI support - 2.2.x
 - [ ] Vulkan?? - Future
+
+# update firmware 1.7.9: <br>
+https://github.com/Ninoh-FOX/OpenRGH/releases/tag/1.7.9
 
 # update firmware 1.7.8.2: <br>
 https://github.com/Ninoh-FOX/OpenRGH/releases/tag/1.7.8.2
@@ -32,6 +36,17 @@ https://drive.google.com/file/d/13iNEBQlbFkueCSAsnWpv8cVGKJv8ihpX/view
 https://drive.google.com/file/d/1kMVWTWTym6TfN3_nrM9N2QSFf2dUxxjp/view
 
 ## Changelog:<br>
+
+### 1.7.9:<br>
+
+1. Change boot logo (again), OpenDingux logo removed for respect to the original creator of the system.
+2. All references to OpenDingux removed, except in the system information as thanks for the original base system.
+3. Gmenu2x now read and write all from home.
+4. Esoteric add how optional launcher in the system.
+5. Update RG350Tests in sd_imagen (thanks to https://github.com/RafaVico).
+6. Now sd_imagen too in opk file, you can now reflash the sdcard without open the console (this erase all).
+7. Now work updates and flashers opks in another launchers.
+
 
 ### 1.7.8.2:<br>
 
@@ -72,13 +87,20 @@ https://drive.google.com/file/d/1kMVWTWTym6TfN3_nrM9N2QSFf2dUxxjp/view
 ### NOTE: If is your first install time for this cfw, the optimus is user sd_image.bin, afte, you can use alway the opks files for update. sd_image.bin erase all data in sdcard!! If you gone from another CFW is better that you make a backup of the folders local/home and local/app first.
 
 ## Instruction for update from OPK update file (Not need open the console):
-1. Place the update opk file in /media/data/apps or /media/sdcard/apps
-2. Run from gmenu2x (not currently working in gmenunx)
-3. allow process to complete
-4. Reboot
+1. Place the update opk file in /media/data/apps or /media/sdcard/apps.
+2. Run from your prefer launcher.
+3. allow process to complete.
+4. Reboot.
 5. If system fails to boot, press Y to boot to last working kernel, or X to boot to last working rootfs. X+Y will load your previous OS version.
-  
-## Instructions for a clear update/ fix internal sdcard or change of internal sdcard:<br>
+
+## Instructions for  a clear update / fix internal sdcard:<br>
+## NOTE: This metode erase all microsd, do a copy of all your files before.
+1. Place the flasher opk file in /media/data/apps or /media/sdcard/apps.
+2. Run from your prefer launcher.
+3. allow process to complete.
+4. Reboot.
+
+## Instructions for change of internal sdcard:<br>
 ## NOTE: This metode erase all microsd, do a copy of all your files before.
 1. Download a base system "sd_image.bin" from releases.
 
@@ -127,11 +149,15 @@ Agradecimiento especial para Pcercuei (https://github.com/pcercuei), Mthuurne (h
 
 ## Metas:
 - [X] Soporte exFAT, auto-redimensionado, sdcard es montada siempre como sdcard, muestra de la version - 1.7.5 branch
-- [ ] Cambiar gmenu2nx por gmenunx cuando sea totalmente compatible, soporte para supencion - 1.8.x branch
+- [X] Agregar Esotérico como lanzador opcional - 1.7.9 branch
+- [ ] Función de suspención real - 1.8.0 brach
 - [ ] actualizacion del kernel -2.x branch
 - [ ] actualizar 3D APIs - 2.1.x
 - [ ] soporte HDMI - 2.2.x
 - [ ] Vulkan?? - Future
+
+# update firmware 1.7.9: <br>
+https://github.com/Ninoh-FOX/OpenRGH/releases/tag/1.7.9
 
 # update firmware 1.7.8.2: <br>
 https://github.com/Ninoh-FOX/OpenRGH/releases/tag/1.7.8.2
@@ -149,6 +175,15 @@ https://drive.google.com/file/d/13iNEBQlbFkueCSAsnWpv8cVGKJv8ihpX/view
 https://drive.google.com/file/d/1kMVWTWTym6TfN3_nrM9N2QSFf2dUxxjp/view
 
 ## Lista de cambios:<br>
+
+### 1.7.9: <br> 
+1. Cambie el logotipo de arranque (de nuevo), elimine el logotipo de OpenDingux por respeto al creador original del sistema. 
+2. Se eliminaron todas las referencias a OpenDingux, excepto en la información del sistema como agradecimiento por el sistema base original.
+3. Gmenu2x ahora lee y escribe todo desde HOME.
+4. Esoteric añadido cómo lanzador opcional en el sistema.
+5. Actualización de RG350test en sd_imagen (gracias a https://github.com/RafaVico).
+6. Ahora sd_imagen también en archivo opk, ahora puede actualizar la tarjeta sd sin abrir la consola (esto borra todo).
+7. Ahora funcionan las opks de actualizaciones y flashes en otros lanzadores.
 
 ### 1.7.8.2:<br>
 
@@ -194,8 +229,15 @@ https://drive.google.com/file/d/1kMVWTWTym6TfN3_nrM9N2QSFf2dUxxjp/view
 3. Espera a que el proceso termine.
 4. Reinicia
 5. Si ves que el sistema falla al reiniciar, presiona Y para cargar el ultimo kernel que funcionó, o X para cargar el ultimo sistema de archivos que funcionó. X+Y para cargar la ultima version del sistema que funcionó. Esto es una carga temporar, pero te servirá para volver a intentarlo o para probar otro metodo de actualización.
-  
-## Instruciones para una actualizacion limpia, corregir tarjetas defectuosas o simplemente cambiar de microsd:<br>
+
+## Instruciones para una actualizacion limpia o corregir tarjetas defectuosas
+## Nota: este metodo borra la sd, has copia de tus datos antes.
+1. Coloca el flasher en OPK en /media/data/apps o /media/sdcard/apps
+2. Arranca Flasher desde el launcher que prefieras.
+3. Espera a que el proceso termine.
+4. Reinicia
+
+## Instruciones para cambiar de microsd interna:<br>
 ## Nota: este metodo borra la sd, has copia de tus datos antes.
 
 1. Descarga el sistema base "sd_image.bin" del release.
