@@ -35,8 +35,20 @@ if [ $n -eq 0 ]; then
   exit 1
 fi
 
-(./pv -n ./sd_image.bin | ./dd of=/dev/mmcblk0 bs=4M conv=notrunc,noerror) 2>&1 | dialog --gauge "Flashing, please wait..." 7 48 0
+clear
+echo
+echo "Flashing the system in the sdcard, please wait..."
+echo
+sync /dev/mmcblk0p2
 sleep 2
+./dd if=./sd_image.bin | ./pv -s 420M | ./dd of=/dev/mmcblk0 bs=4M
+sleep 2
+sync /dev/mmcblk0
+clear
+echo
+echo "All done!! Rebooting..."
+echo 
 
-dialog --msgbox '\n      Flash complete!\n\nThe system will now restart.\n\n' 8 0
+sleep 5
+
 reboot
