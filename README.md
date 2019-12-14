@@ -39,7 +39,8 @@ https://drive.google.com/file/d/1kMVWTWTym6TfN3_nrM9N2QSFf2dUxxjp/view
 
 ### 1.7.9:<br>
 
-1. Change boot logo (again), OpenDingux logo removed for respect to the original creator of the system.
+1. Change boot logo (again), OpenDingux logo removed for respect to the original creator of the system.<br>
+![](https://raw.githubusercontent.com/Ninoh-FOX/RG350-ROGUE-CFW/master/logo_rg350.jpg)
 2. All references to OpenDingux removed, except in the system information as thanks for the original base system.
 3. Gmenu2x now read and write all from home.
 4. Esoteric add how optional launcher in the system.
@@ -177,7 +178,8 @@ https://drive.google.com/file/d/1kMVWTWTym6TfN3_nrM9N2QSFf2dUxxjp/view
 ## Lista de cambios:<br>
 
 ### 1.7.9: <br> 
-1. Cambie el logotipo de arranque (de nuevo), elimine el logotipo de OpenDingux por respeto al creador original del sistema. 
+1. Cambie el logotipo de arranque (de nuevo), elimine el logotipo de OpenDingux por respeto al creador original del sistema. <br>
+![](https://raw.githubusercontent.com/Ninoh-FOX/RG350-ROGUE-CFW/master/logo_rg350.jpg)
 2. Se eliminaron todas las referencias a OpenDingux, excepto en la información del sistema como agradecimiento por el sistema base original.
 3. Gmenu2x ahora lee y escribe todo desde HOME.
 4. Esoteric añadido cómo lanzador opcional en el sistema.
