@@ -9,8 +9,8 @@ Special Thanks to Pcercuei (https://github.com/pcercuei), Mthuurne (https://gith
 ### instrucciones en español más abajo.
 
 ## Goals:
-- [X] exFAT support, auto-resize, constant sdcard mount point, show version - 1.7.5 branch
-- [X] Add Esoteric how optional launcher - 1.7.9 branch
+- [X] exFAT support, auto-resize internal sdcard, constant sdcard mount point, show version - 1.7.5 branch
+- [X] Add Esoteric as an optional launcher - 1.7.9 branch
 - [ ] Suspend capability - 1.8.x branch
 - [ ] Kernel update -2.x branch
 - [ ] Modernize 3D APIs - 2.1.x
@@ -39,29 +39,29 @@ https://drive.google.com/file/d/1kMVWTWTym6TfN3_nrM9N2QSFf2dUxxjp/view
 
 ### 1.7.9:<br>
 
-1. Change boot logo (again), OpenDingux logo removed for respect to the original creator of the system.<br>
+1. Changed the boot logo (again), OpenDingux logo removed out of respect to the original creator of the system.<br>
 ![](https://raw.githubusercontent.com/Ninoh-FOX/RG350-ROGUE-CFW/master/logo_rg350.jpg)
 2. All references to OpenDingux removed, except in the system information as thanks for the original base system.
 3. Gmenu2x now read and write all from home.
-4. Esoteric add how optional launcher in the system. (Thanks to Podulator https://github.com/podulator/esoteric).
-5. Update RG350Tests in sd_imagen (thanks to https://github.com/RafaVico).
-6. Now sd_imagen too in opk file, you can now reflash the sdcard without open the console (this erase all).
-7. Now work updates and flashers opks in another launchers.
+4. Esoteric added as an optional launcher in the system. (Thanks to Podulator https://github.com/podulator/esoteric).
+5. Updated the RG350Tests app in sd_image (thanks to https://github.com/RafaVico).
+6. Now sd_image too in .opk file, you can now reflash the sdcard without open the console (note: this erases everything on the internal sdcard).
+7. Now works with update and flash .opk files in another launchers as well.
 
 
 ### 1.7.8.2:<br>
 
-1. change boot logo.<br>
+1. Changed boot logo.<br>
 ![](https://raw.githubusercontent.com/Ninoh-FOX/RG350-ROGUE-CFW/master/logos/67d0e5b053de2d8c2d813fe0459d11a2o.jpg)
-2. New name firmware.
-3. Update some libs.
-4. Gmenu2x now is mount in /local/home/.gmenu2x
+2. New name for firmware.
+3. Updated some libs.
+4. Gmenu2x is now mounted in /local/home/.gmenu2x
 
 ### 1.7.8.1:<br>
-1. boot partition now is mount too in /media/system in rw mode for recovery the system from pc if this is possible.
-2. Gmenu2x now can link .opk and .dge files.
+1. Boot partition is now mounted in /media/system in RW mode for recovering the system from a PC if possible.
+2. Gmenu2x can now link .opk and .dge files.
 3. New boot logo.
-4. New flasher sdcatd imagen (thanks to https://github.com/gcwnow/imager )
+4. New sdcard flash image (thanks to https://github.com/gcwnow/imager )
 
 ### 1.7.8:<br>
 1. lazy_itable_init = 0 and lazy_journal_init = 0 support added to EXT4 file system.
@@ -74,68 +74,68 @@ https://drive.google.com/file/d/1kMVWTWTym6TfN3_nrM9N2QSFf2dUxxjp/view
 2. Default SD card mount changed to /media/sdcard - No having to re-do paths when swapping SD cards
 3. Auto swap file and partition resize - This takes a while, allow it to finish.  Progress will be shown on screen during first boot
 4. Duplicate modules removed from modules.squashfs 
-5. Fix the resize in old stock firmwares (bad ext4 partition)
+5. Fixed the resize process in old stock firmwares (bad ext4 partition)
 6. Fixed power off and reboot error messages
 7. Fixed slowdowns and stuttering during first 15 minutes after first boot
-)8. Rebuild mininit-syspart from original opendingux code. (Thanks to https://github.com/OpenDingux/mininit)
+8. Rebuild mininit-syspart from original opendingux code. (Thanks to https://github.com/OpenDingux/mininit)
 9. Autoremove old configs of the system in the first boot.
 10. Change file system table.
-11. Restore USB-HID suport.
-12. update libshake from original code: https://github.com/zear/libShake
+11. Restore USB-HID support.
+12. Update libshake from the original code: https://github.com/zear/libShake
 
 
 ## Instructions:<br>
-### NOTE: If is your first install time for this cfw, the optimus is user sd_image.bin, afte, you can use alway the opks files for update. sd_image.bin erase all data in sdcard!! If you gone from another CFW is better that you make a backup of the folders local/home and local/app first.
+### NOTE: If is your first time installing this CFW, the file to use is sd_image.bin, afterwards you can use always use opks update files for future releases. Using the sd_image.bin erases all data on the sdcard!! If you're updating from another CFW you may want to make a backup of the folders local/home and local/app first to preserve emulators/apps, their settings, and your game saves.
 
-## Instruction for update from OPK update file (Not need open the console):
+## Instruction for updating from an OPK update file (No need to open the console):
 1. Place the update opk file in /media/data/apps or /media/sdcard/apps.
-2. Run from your prefer launcher.
-3. allow process to complete.
+2. Run from your preferred launcher.
+3. Allow process to complete.
 4. Reboot.
-5. If system fails to boot, press Y to boot to last working kernel, or X to boot to last working rootfs. X+Y will load your previous OS version.
+5. If the system fails to boot, press Y to boot to the last working kernel, or X to boot to the last working rootfs. X+Y will load your previous OS version.
 
-## Instructions for  a clear update / fix internal sdcard:<br>
-## NOTE: This metode erase all microsd, do a copy of all your files before.
+## Instructions for  a clean update / fix internal sdcard:<br>
+## NOTE: This method erases the microsd, so backup of all your files beforehand as mentioned above.
 1. Place the flasher opk file in /media/data/apps or /media/sdcard/apps.
-2. Run from your prefer launcher.
-3. allow process to complete.
+2. Run from your preferred launcher.
+3. Allow process to complete.
 4. Reboot.
 
-## Instructions for change of internal sdcard:<br>
-## NOTE: This metode erase all microsd, do a copy of all your files before.
-1. Download a base system "sd_image.bin" from releases.
+## Instructions when changing the internal sdcard, i.e. using a bigger/new sdcard:<br>
+## NOTE: This method erases the microsd, so backup of all your files beforehand as mentioned above.
+1. Download the base system "sd_image.bin" from the Releases page.
 
 ### **for Windows:<br>**
-2. Format the new sdcard / internel sdcard with SD FORMATTER 5.0.1 ( https://www.sdcard.org/downloads/formatter/ ) two times.
-3. Download Win32 disk imager ( https://sourceforge.net/projects/win32diskimager/ ) and flash (writer) the FW base imagen in the sdcard.
-#### 4. NOT RESIZER THE EXT4 PARTITION IN WINDOWS!!<br> only put the internal sd in the console and follow the instructions.
+2. Format the new sdcard / internal sdcard with SD FORMATTER 5.0.1 ( https://www.sdcard.org/downloads/formatter/ ) two times.
+3. Download Win32 disk imager ( https://sourceforge.net/projects/win32diskimager/ ) and flash (write) the FW base image to the sdcard.
+#### 4. DO NOT RESIZE THE EXT4 PARTITION IN WINDOWS OR LINUX!!<br> just put the sdcard inside the console and follow the on-screen instructions.
 
 ### **for Linux:<br>**
 2. Format the new sdcard / internel sdcard with gnome-disk-utility.
-3. Flash the FW base imagen in the sdcard with gnome-disk-utility.
+3. Flash the FW base image in the sdcard with gnome-disk-utility.
    Or type in a terminal:
    
    sudo dd if=sd_image.bin of=/dev/[sdcard mount point]
-#### 4. Not resize!! Put the internal sd in the console and follow the instructions.
+#### 4. Not resize!! Just put the internal sdcard inside the console and follow the on-screen instructions.
 
-## intructions for recovery or external update:<br>
+## Intructions for recovery or external update:<br>
 
 thanks to https://github.com/gcwnow wiki
 
-This work for GMENUNX.
+This works for GMENUNX.
 
-You can copy the kernel or rootfs to the internal SD card of the RG350 using FTP, SFTP or SCP. I recommend SCP since it is just one line on the command prompt. It does require setting up SSH keypair authentication though.
+You can copy the kernel or rootfs to the internal SD card of the RG350 using FTP, SFTP or SCP. I recommend SCP since it is just one line on the command prompt. It does require setting up SSH keypair authentication beforehand though.
 
-**for kernel**
+**for the kernel**
 
 scp vmlinuz.bin root@10.1.1.2:/media/system/<br>
 scp modules.squashfs root@10.1.1.2:/media/system/update_m.bin
 
-**for rootfs**
+**for the rootfs**
 
 scp rootfs.squashfs root@10.1.1.2:/media/system/update_r.bin
 
-Reboot the RG350 to activate the new kernel or rootfs. Don't use the reset button: part of the kernel or of the rootfs may not have been flushed from the write cache yet.
+Reboot the RG350 to activate the new kernel or rootfs. Don't use the reset button as part of the kernel or of the rootfs may not have been flushed from the write cache yet.
 
 You can use:
 
