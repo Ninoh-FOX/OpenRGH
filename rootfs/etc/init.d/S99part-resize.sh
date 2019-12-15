@@ -1,9 +1,16 @@
 #!/bin/sh
 
+DEVICE=mmcblk0
+PART_NUM=2
+
+DEVICE_SIZE=`cat /sys/block/${DEVICE}/size`
+START=`partx /dev/${DEVICE} -n ${PART_NUM} -g -o start`
+SIZE=$((${DEVICE_SIZE} - ${START}))
+
 failexit()
 {
   echo "failed"
-  /bin/mount -t ext4 -o noatime,nodiratime,rw /dev/mmcblk0p2 /media/data 1>/dev/null 2>&1
+  /bin/mount -t ext4 -o noatime,nodiratime,rw /dev/${DEVICE}p${PART_NUM} /media/data 1>/dev/null 2>&1
   echo -n 0 >/sys/devices/virtual/vtconsole/vtcon1/bind
   sleep 5
   exit 1
@@ -17,9 +24,9 @@ if [[ ! -d /media/data || -f /media/data/.partition_resized ]]; then
     else
     failexit
     fi
-    /bin/umount -l /dev/mmcblk0p2 1>/dev/null 2>&1
-    /usr/sbin/e2fsck -f -y -C 0 /dev/mmcblk0p2
-    /bin/mount -t ext4 -o noatime,nodiratime,rw /dev/mmcblk0p2 /media/data
+    /bin/umount -l /dev/${DEVICE}p${PART_NUM} 1>/dev/null 2>&1
+    /usr/sbin/e2fsck -f -y -C 0 /dev/${DEVICE}p${PART_NUM}
+    /bin/mount -t ext4 -o noatime,nodiratime,rw /dev/${DEVICE}p${PART_NUM} /media/data
     touch /media/data/.clean
     exit 1   
 fi
@@ -37,26 +44,22 @@ else
   failexit
 fi
 
-echo
-echo "Checking and extending partition..."
 
-(echo d
-echo 2
-echo n
-echo
-echo
-echo
-echo
-echo w
-) | fdisk /dev/mmcblk0
-/usr/sbin/partx -u /dev/mmcblk0
-/bin/umount -l /dev/mmcblk0p2 1>/dev/null 2>&1
-/usr/sbin/e2fsck -f -y -C 0 /dev/mmcblk0p2
-/usr/sbin/e2fsck -f /dev/mmcblk0p2
-/usr/sbin/resize2fs -p /dev/mmcblk0p2 || failexit
-/bin/mount -t ext4 -o noatime,nodiratime,rw /dev/mmcblk0p2 /media/data
+
+echo "${START},${SIZE}" | sfdisk --no-reread -uS -N ${PART_NUM} /dev/${DEVICE}
+
+clear
+echo 1 > /sys/devices/virtual/vtconsole/vtcon1/bind
+echo "Resizing and checking the data partition. Please be patient."
+
+set +e
+/bin/umount -l /dev/${DEVICE}p${PART_NUM} 1>/dev/null 2>&1
+/usr/sbin/e2fsck -f -y -C 0 /dev/${DEVICE}p${PART_NUM}
+/usr/sbin/e2fsck -f /dev/${DEVICE}p${PART_NUM}
+resizepart /dev/${DEVICE} ${PART_NUM} ${SIZE}
+resize2fs -p /dev/${DEVICE}p${PART_NUM} || failexit
+/bin/mount -t ext4 -o noatime,nodiratime,rw /dev/${DEVICE}p${PART_NUM} /media/data
 touch /media/data/.partition_resized
-
 echo
 echo "All done."
 
