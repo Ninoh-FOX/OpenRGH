@@ -85,10 +85,10 @@ https://drive.google.com/file/d/1kMVWTWTym6TfN3_nrM9N2QSFf2dUxxjp/view
 
 
 ## Instructions:<br>
-### NOTE: If is your first time installing this CFW, the file to use is sd_image.bin, afterwards you can use always use opks update files for future releases. Using the sd_image.bin erases all data on the sdcard!! If you're updating from another CFW you may want to make a backup of the folders local/home and local/app first to preserve emulators/apps, their settings, and your game saves.
+### NOTE: If is your first time installing this CFW, the file to use is sd_image.bin or flasher opk, afterwards you can use always use opks update files for future releases. Using the sd_image.bin erases all data on the sdcard!! If you're updating from another CFW you may want to make a backup of the folders local/home and local/app first to preserve emulators/apps, their settings, and your game saves.
 
 ## Instruction for updating from an OPK update file (No need to open the console):
-1. Place the update opk file in /media/data/apps or /media/sdcard/apps.
+1. Place the update opk file in /media/sdcard/apps.
 2. Run from your preferred launcher.
 3. Allow process to complete.
 4. Reboot.
@@ -223,7 +223,7 @@ https://drive.google.com/file/d/1kMVWTWTym6TfN3_nrM9N2QSFf2dUxxjp/view
 
 
 ## Instrucciones:<br>
-### Nota: Si es la primera vez que actualizas este firmware, lo idoneo es que uses el archivo sd_image.bin, luego ya despues puedes seguir actualizando por opk. Impotante, sd_image.bin borra toda la sd, por lo que primero, y si vienes de otro FW tambien, es mejor que hagas copias de las carpetas /local/home y /local/apps antes de actualizar.
+### Nota: Si es la primera vez que actualizas este firmware, lo idoneo es que uses el archivo sd_image.bin o el flasher opk, luego ya despues puedes seguir actualizando por opk. Impotante, sd_image.bin y flasher opk borra toda la sd, por lo que primero, y si vienes de otro FW tambien, es mejor que hagas copias de las carpetas /local/home y /local/apps antes de actualizar.
 
 ## Instrucciones por OPK (no es necesario abrir la consola):
 1. Coloca el update en OPK /media/data/apps o /media/sdcard/apps
@@ -234,7 +234,7 @@ https://drive.google.com/file/d/1kMVWTWTym6TfN3_nrM9N2QSFf2dUxxjp/view
 
 ## Instruciones para una actualizacion limpia o corregir tarjetas defectuosas
 ## Nota: este metodo borra la sd, has copia de tus datos antes.
-1. Coloca el flasher en OPK en /media/data/apps o /media/sdcard/apps
+1. Coloca el flasher en OPK en /media/sdcard/apps
 2. Arranca Flasher desde el launcher que prefieras.
 3. Espera a que el proceso termine.
 4. Reinicia
