@@ -42,6 +42,7 @@ https://drive.google.com/file/d/1kMVWTWTym6TfN3_nrM9N2QSFf2dUxxjp/view
 1. Changed the boot logo (again), OpenDingux logo removed out of respect to the original creator of the system.<br>
 ![](https://raw.githubusercontent.com/Ninoh-FOX/RG350-ROGUE-CFW/master/logo_rg350.jpg)
 2. All references to OpenDingux removed, except in the system information as thanks for the original base system.
+![](https://raw.githubusercontent.com/Ninoh-FOX/RG350-ROGUE-CFW/master/system_info.png)
 3. Gmenu2x now read and write all from home.
 4. Esoteric added as an optional launcher in the system. (Thanks to Podulator https://github.com/podulator/esoteric).
 5. Updated the RG350Tests app in sd_image (thanks to https://github.com/RafaVico).
