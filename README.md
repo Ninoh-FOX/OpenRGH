@@ -85,7 +85,7 @@ https://drive.google.com/file/d/1kMVWTWTym6TfN3_nrM9N2QSFf2dUxxjp/view
 
 
 ## Instructions:<br>
-### NOTE: If is your first time installing this CFW, the file to use is sd_image.bin or flasher opk, afterwards you can use always use opks update files for future releases. Using the sd_image.bin erases all data on the sdcard!! If you're updating from another CFW you may want to make a backup of the folders local/home and local/app first to preserve emulators/apps, their settings, and your game saves.
+### NOTE: If is your first time installing this CFW, the file to use is sd_image.bin or flasher opk, afterwards you can use always use opks update files for future releases. Using the sd_image.bin or flasher opk erases all data on the sdcard!! If you're updating from another CFW you may want to make a backup of the folders local/home and local/app first to preserve emulators/apps, their settings, and your game saves.
 
 ## Instruction for updating from an OPK update file (No need to open the console):
 1. Place the update opk file in /media/sdcard/apps.
