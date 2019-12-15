@@ -2,7 +2,7 @@
 set -e
 umask 0022
 
-VERSION="1.7.6"
+VERSION="1.7.9"
 
 if [ -r "update/vmlinuz.bin" ]; then
 KERNEL="update/vmlinuz.bin"
@@ -122,9 +122,9 @@ echo
 cat > update/default.gcw0.desktop <<EOF
 [Desktop Entry]
 Name=OS Update $VERSION
-Comment=OpenDingux Update $DATE
+Comment=RG350 ROGUE Update $DATE
 Exec=update.sh
-Icon=opendingux
+Icon=rogue
 Terminal=true
 Type=Application
 StartupNotify=true
@@ -135,7 +135,7 @@ EOF
 OPK_FILE=update/rg350-update-$VERSION-$DATE.opk
 mksquashfs \
 	update/default.gcw0.desktop \
-	update/opendingux.png \
+	update/rogue.png \
 	update/update.sh \
 	update/trimfat.py \
 	update/flash_partition.sh \
