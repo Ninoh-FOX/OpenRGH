@@ -115,7 +115,7 @@ UP_TO_DATE=yes
 if [ -f "$DATE_FILE" ] ; then
 	DATE="`cat $DATE_FILE`"
         VERSION="`cat $VERSION_FILE`"
-	export DIALOGOPTS="--colors --backtitle \"OpenDingux update $DATE $VERSION\""
+	export DIALOGOPTS="--colors --backtitle \"RG350 ROGUE VERSION update $DATE $VERSION\""
 fi
 
 echo "screen_color = (RED,RED,ON)" > /tmp/dialog_err.rc
