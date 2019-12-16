@@ -1,0 +1,11 @@
+--- clock.c	2019-12-16 18:15:53.287434938 +0100
++++ clock.c	2019-12-16 18:13:49.161402938 +0100
+@@ -193,7 +193,7 @@
+ }
+ 
+ #define FVCO_MIN  300*1000*1000	/* 300 MHz */
+-#define FVCO_MAX  1000*1000*1000	/* 1 GHz */
++#define FVCO_MAX  1080*1000*1000	/* 1.1 GHz */
+ 
+ /* The frequency after the input divider must be between 10 and 50 MHz.
+ The highest divider yields the best resolution. */
