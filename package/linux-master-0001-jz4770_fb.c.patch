@@ -1,5 +1,5 @@
---- jz4770_fb.c	2019-12-16 18:09:47.616690939 +0100
-+++ jz4770_fb.c	2019-12-16 18:03:04.819392937 +0100
+--- linux-master/drivers/video/jz4770_fb.c	2019-12-16 18:09:47.616690939 +0100
++++ linux-master/drivers/video/jz4770_fb.c	2019-12-16 18:03:04.819392937 +0100
 @@ -84,7 +84,8 @@
  		LCD_CFG_HSP |	/* Hsync polarity: active low */
  		LCD_CFG_VSP,	/* Vsync polarity: leading edge is falling edge */
