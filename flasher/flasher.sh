@@ -39,16 +39,14 @@ clear
 echo
 echo "Flashing the system in the sdcard, please wait..."
 echo
-sync /dev/mmcblk0p2
 sleep 2
-./dd if=./sd_image.bin | ./pv -s 420M | ./dd of=/dev/mmcblk0 bs=4M
+./dd bs=1M if=./sd_image.bin | ./pv ./sd_image.bin | ./dd bs=1M of=/dev/mmcblk0 oflag=sync
 sleep 2
-sync /dev/mmcblk0
 clear
 echo
 echo "All done!! Rebooting..."
 echo 
 
-sleep 5
-
+sleep 2
+echo "If not reboot in 15s aprox. press RESET"
 reboot
