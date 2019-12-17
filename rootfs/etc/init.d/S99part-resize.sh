@@ -62,6 +62,6 @@ touch /media/data/.partition_resized
 echo
 echo "All done."
 
-sleep 5
+sleep 2
 
 echo -n 0 >/sys/devices/virtual/vtconsole/vtcon1/bind
