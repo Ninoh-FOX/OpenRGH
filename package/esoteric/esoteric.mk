@@ -31,7 +31,7 @@ define ESOTERIC_INSTALL_ESOTERIC
 		echo "removing old directory"; \
 		rm -rf $(TARGET_DIR)/usr/share/esoteric ; \
 	fi ; \
-	cp -r dist/$(BR2_PACKAGE_ESOTERIC_PLATFORM)/esoteric $(TARGET_DIR)/usr/share/ ; \
+	cp -r dist/RG350/esoteric $(TARGET_DIR)/usr/share/ ; \
 	if [ -L $(TARGET_DIR)/usr/bin/esoteric ]; then \
 		echo "removing old link"; \
 		rm -rf $(TARGET_DIR)/usr/bin/esoteric ; \
