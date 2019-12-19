@@ -46,8 +46,9 @@ https://drive.google.com/file/d/1kMVWTWTym6TfN3_nrM9N2QSFf2dUxxjp/view
 2. Optimized the check files in the boots.
 3. Optimized flasher install.
 4. Gmenu2X now has a Docs reader (txt) thanks to Rafa Vico (https://github.com/RafaVico)
-5. Gmenu2x can too now change the cpu of the console betweer MAX and MIN for save battery (for example for GBC emu)
-6. Optimized kernel control in screen hz (thanks to pcercuei https://boards.dingoonity.org/retro-game-350rg-350/screen-now-going-bad/msg191784/#msg191784)
+5. Gmenu2x now show the porcentage of the battery too.
+6. Gmenu2x can too now change the cpu of the console betweer MAX and MIN for save battery (for example for GBC emu)
+7. Optimized kernel control in screen hz (thanks to pcercuei https://boards.dingoonity.org/retro-game-350rg-350/screen-now-going-bad/msg191784/#msg191784)
 
 ### 1.7.9:<br>
 
@@ -196,10 +197,11 @@ https://drive.google.com/file/d/1kMVWTWTym6TfN3_nrM9N2QSFf2dUxxjp/view
 
 1. Optimizado la creacion del sistema de particiones y de archivo en el primer arranque, este ya no se sobreescribirá más, solo con flasher.
 2. Optimizado el checkeo de archivos en los arranques.
-2. Optimizado la instalación por flasher.
-3. Gmenu2x ahora tiene Docs, un lector de TXTs, gracias a Rafa Vico (https://github.com/RafaVico)
-4. Gmenu2x puede cambiar ahora la frecuencia de cpu entre MAX y Min para ahorrar bateria (por ejemplo para GBC emu)
-5. Optimizado los Hz de la pantalla en el kernel (Gracias a pcercuei https://boards.dingoonity.org/retro-game-350rg-350/screen-now-going-bad/msg191784/#msg191784)
+3. Optimizado la instalación por flasher.
+4. Gmenu2x ahora tiene Docs, un lector de TXTs, gracias a Rafa Vico (https://github.com/RafaVico)
+5. Gmenu2x ahora muestra el porcentaje de la bateria tambien.
+6. Gmenu2x puede cambiar ahora la frecuencia de cpu entre MAX y Min para ahorrar bateria (por ejemplo para GBC emu)
+7. Optimizado los Hz de la pantalla en el kernel (Gracias a pcercuei https://boards.dingoonity.org/retro-game-350rg-350/screen-now-going-bad/msg191784/#msg191784)
 
 ### 1.7.9: <br> 
 1. Cambie el logotipo de arranque (de nuevo), elimine el logotipo de OpenDingux por respeto al creador original del sistema. <br>
