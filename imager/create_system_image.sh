@@ -17,14 +17,6 @@ else
 	echo "missing main kernel: vmlinuz.bin"
 	exit 1
 fi
-if test -f vmlinuz.bak
-then
-	SIZE=$(stat -Lc %s vmlinuz.bak)
-	echo "vmlinuz.bak: $((${SIZE} / 1024)) kB"
-else
-	echo "missing fallback kernel: vmlinuz.bak"
-	exit 1
-fi
 
 echo "Checking presence of mininit-syspart..."
 if test -f mininit-syspart
@@ -55,14 +47,6 @@ else
 	echo "missing modules filesystem: modules.squashfs"
 	exit 1
 fi
-if test -f modules.squashfs.bak
-then
-	SIZE=$(stat -Lc %s modules.squashfs.bak)
-	echo "modules.squashfs.bak: $((${SIZE} / 1024)) kB"
-else
-	echo "missing fallback modules filesystem: modules.squashfs.bak"
-	exit 1
-fi
 
 echo "Creating system partition..."
 IMAGE_SIZE=$((${DATA_START} - ${SYSTEM_START}))
@@ -75,14 +59,10 @@ echo "Populating system partition..."
 mmd -i images/system.bin ::dev ::root
 mcopy -i images/system.bin vmlinuz.bin ::vmlinuz.bin
 sha1sum vmlinuz.bin | cut -d' ' -f1 | mcopy -i images/system.bin - ::vmlinuz.bin.sha1
-mcopy -i images/system.bin vmlinuz.bak ::vmlinuz.bak
-sha1sum vmlinuz.bak | cut -d' ' -f1 | mcopy -i images/system.bin - ::vmlinuz.bak.sha1
 mcopy -i images/system.bin mininit-syspart ::mininit-syspart
 sha1sum mininit-syspart | cut -d' ' -f1 | mcopy -i images/system.bin - ::mininit-syspart.sha1
 mcopy -i images/system.bin modules.squashfs ::modules.squashfs
 sha1sum modules.squashfs | cut -d' ' -f1 | mcopy -i images/system.bin - ::modules.squashfs.sha1
-mcopy -i images/system.bin modules.squashfs.bak ::modules.squashfs.bak
-sha1sum modules.squashfs.bak | cut -d' ' -f1 | mcopy -i images/system.bin - ::modules.squashfs.bak.sha1
 mcopy -i images/system.bin rootfs.squashfs ::rootfs.squashfs
 sha1sum rootfs.squashfs | cut -d' ' -f1 | mcopy -i images/system.bin - ::rootfs.squashfs.sha1
 
