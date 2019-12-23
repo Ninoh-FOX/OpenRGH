@@ -1,14 +1,12 @@
 #!/bin/sh
 
 DISCLAIMER="\Zb\Z3NOTICE\Zn
-
 While we carefully constructed this flasher,
 it is possible flaws in the flasher or in
 the flashed MMC could lead to \Zb\Z3data loss\Zn.
 We recommend that you \Zb\Z3backup\Zn all
 valuable personal data on your RG-350 before
 you perform the flash.
-
 Do you want to flash now?"
 
 if [ -f "date.txt" ] ; then
@@ -40,7 +38,8 @@ echo
 echo "Flashing the system in the sdcard, please wait..."
 echo
 sleep 2
-./dd bs=1M if=./sd_image.bin | ./pv ./sd_image.bin | ./dd bs=1M of=/dev/mmcblk0 oflag=sync
+./dd bs=512 if=./sd_image.bin | ./pv ./sd_image.bin | ./dd bs=512 of=/dev/mmcblk0 oflag=sync conv=notrunc
+sync
 sleep 2
 clear
 echo
