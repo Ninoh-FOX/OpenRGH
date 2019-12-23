@@ -366,6 +366,10 @@ if [ -f "$BOOTLOADER" -a "$SYSTEM_PARTITION" = "/dev/mmcblk0p1" ] ; then
 	sync
 fi
 
+echo 'Cheking boot partition... '
+./fsck.fat -w -r -l -a -v -t /dev/mmcblk0p1
+echo 'Done!!'
+
 dialog --msgbox 'Update complete!\nThe system will now restart.\n\n
 If for some reason the system fails to boot, try to press the
 following keys while powering on the device:\n
