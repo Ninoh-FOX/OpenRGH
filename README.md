@@ -17,6 +17,9 @@ Special Thanks to Pcercuei (https://github.com/pcercuei), Mthuurne (https://gith
 - [ ] HDMI support - 2.2.x
 - [ ] Vulkan?? - Future
 
+# update firmware 1.7.9.2: <br>
+https://github.com/Ninoh-FOX/OpenRGH/releases/tag/1.7.9.2
+
 # update firmware 1.7.9.1: <br>
 https://github.com/Ninoh-FOX/OpenRGH/releases/tag/1.7.9.1
 
@@ -39,6 +42,15 @@ https://drive.google.com/file/d/13iNEBQlbFkueCSAsnWpv8cVGKJv8ihpX/view
 https://drive.google.com/file/d/1kMVWTWTym6TfN3_nrM9N2QSFf2dUxxjp/view
 
 ## Changelog:<br>
+
+### 1.7.9.2:<br>
+
+1. Optimized update opk script for that ckeck and repair boot partition.
+2. Fix frasher script, not more error segmentation fault, but now the flasher for opk time take about 15min, all is automatized, so you not need do nothing.
+3. Gmenu2x updated, now you can edit the opk icons, name, description and files filtre.
+4. Gmenu2x now can on/off the screen with the power button, not more "ghost wakeups". thanks to Rafa Vico (https://github.com/RafaVico)
+5. RG350 test updated, now you can see the sdcards free space. thanks to Rafa Vico (https://github.com/RafaVico)
+6. Updated Esotoric to the last version. Thanks to Podulator (https://github.com/podulator/esoteric)
 
 ### 1.7.9.1:<br>
 
@@ -197,6 +209,17 @@ https://drive.google.com/file/d/1kMVWTWTym6TfN3_nrM9N2QSFf2dUxxjp/view
 ## Lista de cambios:<br>
 
 ## Changelog:<br>
+
+## Changelog:<br>
+
+### 1.7.9.2:<br>
+
+1. Optimizado el scrip del opk update para que checkee la particion boot tras hacer los cambios.
+2. Corregido el script del frasher, no mas errores de "segmentation fualt", pero ahora el flasheo por opk tomará un tiempo de unos 15min, todo esta automatizado, por lo que no necesitas hacer nada.
+3. Gmenu2x actualizado, ahora puedes editar los OPK, tanto nombre, descripcion, icono, manual y tipos de archivos.
+4. Gmenu2x ahora puede apagar y encender la pantalla con el boton power, no más "activaciones fantasmas". Gracias a Rafa Vico (https://github.com/RafaVico)
+5. RG350 test actualizado, ahora puedes ver el espacio libre en ambas tarjetas SD, gracias a Rafa Vico (https://github.com/RafaVico)
+6. Actualizado Esoteric a la ultima version. Gracias a Podulator (https://github.com/podulator/esoteric)
 
 ### 1.7.9.1:<br>
 
