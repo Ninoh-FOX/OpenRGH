@@ -2,7 +2,7 @@
 set -e
 umask 0022
 
-VERSION="1.7.9"
+VERSION="`cat ./version.txt`"
 
 if [ -r "flasher/sd_image.bin" ]; then
 SD="flasher/sd_image.bin"
