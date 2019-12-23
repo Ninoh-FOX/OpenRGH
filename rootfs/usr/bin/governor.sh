@@ -3,8 +3,8 @@
 STATE=`cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor`
 counter=0
 
-while [[ $STATE != "performance" ]]; do
-	echo 'performance' > /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor
+while [[ $STATE != "userspece" ]]; do
+	echo 'userspace' > /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor
 	sleep 1
 
 	STATE=`cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor`
