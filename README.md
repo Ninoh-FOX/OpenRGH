@@ -46,7 +46,7 @@ https://drive.google.com/file/d/1kMVWTWTym6TfN3_nrM9N2QSFf2dUxxjp/view
 ### 1.7.9.2:<br>
 
 1. Optimized update opk script for that ckeck and repair boot partition.
-2. Fix frasher script, not more error segmentation fault, but now the flasher for opk time take about 15min, all is automatized, so you not need do nothing.
+2. Fix flasher script, not more error segmentation fault, but now the flasher for opk time take about 15min, all is automatized, so you not need do nothing.
 3. Gmenu2x updated, now you can edit the opk icons, name, description and files filtre.
 4. Gmenu2x now can on/off the screen with the power button, not more "ghost wakeups". thanks to Rafa Vico (https://github.com/RafaVico)
 5. RG350 test updated, now you can see the sdcards free space. thanks to Rafa Vico (https://github.com/RafaVico)
