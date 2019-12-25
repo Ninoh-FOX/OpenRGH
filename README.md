@@ -18,7 +18,7 @@ Special Thanks to Pcercuei (https://github.com/pcercuei), Mthuurne (https://gith
 - [ ] Vulkan?? - Future
 
 # update firmware 1.7.9.2 fix: <br>
-https://github.com/Ninoh-FOX/RG350-ROGUE-CFW/releases/tag/1.9.7.2fix
+https://github.com/Ninoh-FOX/RG350-ROGUE-CFW/releases/tag/1.7.9.2fix
 
 # update firmware 1.7.9.2: <br>
 https://github.com/Ninoh-FOX/OpenRGH/releases/tag/1.7.9.2
@@ -193,7 +193,7 @@ Agradecimiento especial para Pcercuei (https://github.com/pcercuei), Mthuurne (h
 - [ ] Vulkan?? - Future
 
 # update firmware 1.7.9.2 fix: <br>
-https://github.com/Ninoh-FOX/RG350-ROGUE-CFW/releases/tag/1.9.7.2fix
+https://github.com/Ninoh-FOX/RG350-ROGUE-CFW/releases/tag/1.7.9.2fix
 
 # update firmware 1.7.9.1: <br>
 https://github.com/Ninoh-FOX/OpenRGH/releases/tag/1.7.9.1
