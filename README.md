@@ -17,6 +17,9 @@ Special Thanks to Pcercuei (https://github.com/pcercuei), Mthuurne (https://gith
 - [ ] HDMI support - 2.2.x
 - [ ] Vulkan?? - Future
 
+# update firmware 1.7.9.2 fix: <br>
+https://github.com/Ninoh-FOX/OpenRGH/releases/tag/1.7.9.2fix
+
 # update firmware 1.7.9.2: <br>
 https://github.com/Ninoh-FOX/OpenRGH/releases/tag/1.7.9.2
 
@@ -42,6 +45,10 @@ https://drive.google.com/file/d/13iNEBQlbFkueCSAsnWpv8cVGKJv8ihpX/view
 https://drive.google.com/file/d/1kMVWTWTym6TfN3_nrM9N2QSFf2dUxxjp/view
 
 ## Changelog:<br>
+
+### 1.7.9.2 fix:<br>
+
+Fixed the lost  library ncurses 5 from the buildroot code (this is now ncursesw 6.1 in the toolchain github https://github.com/tonyjih/RG350_buildroot/commit/f167487b5a0450cebd99256400ded18734f2f25d and now the olds emulator not work). This is necessary for some old old emulators.
 
 ### 1.7.9.2:<br>
 
@@ -185,6 +192,9 @@ Agradecimiento especial para Pcercuei (https://github.com/pcercuei), Mthuurne (h
 - [ ] soporte HDMI - 2.2.x
 - [ ] Vulkan?? - Future
 
+# update firmware 1.7.9.2 fix: <br>
+https://github.com/Ninoh-FOX/OpenRGH/releases/tag/1.7.9.2fix
+
 # update firmware 1.7.9.1: <br>
 https://github.com/Ninoh-FOX/OpenRGH/releases/tag/1.7.9.1
 
@@ -210,7 +220,9 @@ https://drive.google.com/file/d/1kMVWTWTym6TfN3_nrM9N2QSFf2dUxxjp/view
 
 ## Changelog:<br>
 
-## Changelog:<br>
+### 1.7.9.2 fix:<br>
+
+Añadida la libreria perdida ncurses v5, necesaria para antiguos emuladores, debido a los ultimos cambios del buildroot por la actualizacion de esta a la version 6.1.
 
 ### 1.7.9.2:<br>
 
