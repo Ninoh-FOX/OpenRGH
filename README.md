@@ -66,7 +66,7 @@ Fixed the lost  library ncurses 5 from the buildroot code (this is now ncursesw 
 3. Optimized flasher install.
 4. Gmenu2X now has a Docs reader (txt) thanks to Rafa Vico (https://github.com/RafaVico)
 5. Gmenu2x now show the porcentage of the battery too.
-6. Gmenu2x can too now change the cpu of the console betweer MAX and MIN for save battery (for example for GBC emu)
+6. Gmenu2x can too now change the cpu of the console betweer MAX and MIN for save battery (for example for GBC emu)<br>
 ![](https://raw.githubusercontent.com/Ninoh-FOX/RG350-ROGUE-CFW/master/screenshots/cpucontrol1.png)
 ![](https://raw.githubusercontent.com/Ninoh-FOX/RG350-ROGUE-CFW/master/screenshots/cpucontrol2.png)
 7. Optimized kernel control in screen hz (thanks to pcercuei https://boards.dingoonity.org/retro-game-350rg-350/screen-now-going-bad/msg191784/#msg191784)
@@ -240,7 +240,7 @@ Añadida la libreria perdida ncurses v5, necesaria para antiguos emuladores, deb
 3. Optimizado la instalación por flasher.
 4. Gmenu2x ahora tiene Docs, un lector de TXTs, gracias a Rafa Vico (https://github.com/RafaVico)
 5. Gmenu2x ahora muestra el porcentaje de la bateria tambien.
-6. Gmenu2x puede cambiar ahora la frecuencia de cpu entre MAX y Min para ahorrar bateria (por ejemplo para GBC emu)
+6. Gmenu2x puede cambiar ahora la frecuencia de cpu entre MAX y Min para ahorrar bateria (por ejemplo para GBC emu)<br>
 ![](https://raw.githubusercontent.com/Ninoh-FOX/RG350-ROGUE-CFW/master/screenshots/cpucontrol1.png)
 ![](https://raw.githubusercontent.com/Ninoh-FOX/RG350-ROGUE-CFW/master/screenshots/cpucontrol2.png)
 7. Optimizado los Hz de la pantalla en el kernel (Gracias a pcercuei https://boards.dingoonity.org/retro-game-350rg-350/screen-now-going-bad/msg191784/#msg191784)
