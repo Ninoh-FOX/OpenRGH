@@ -11,11 +11,9 @@ Special Thanks to Pcercuei (https://github.com/pcercuei), Mthuurne (https://gith
 ## Goals:
 - [X] exFAT support, auto-resize internal sdcard, constant sdcard mount point, show version - 1.7.5 branch
 - [X] Add Esoteric as an optional launcher - 1.7.9 branch
-- [ ] Suspend capability - 1.8.x branch
-- [ ] Kernel update -2.x branch
+- [ ] Kernel update and Suspend capability - 2.x branch
 - [ ] Modernize 3D APIs - 2.1.x
 - [ ] HDMI support - 2.2.x
-- [ ] Vulkan?? - Future
 
 # update firmware 1.7.9.2 fix: <br>
 https://github.com/Ninoh-FOX/RG350-ROGUE-CFW/releases/tag/1.7.9.2fix
@@ -186,11 +184,9 @@ Agradecimiento especial para Pcercuei (https://github.com/pcercuei), Mthuurne (h
 ## Metas:
 - [X] Soporte exFAT, auto-redimensionado, sdcard es montada siempre como sdcard, muestra de la version - 1.7.5 branch
 - [X] Agregar Esotérico como lanzador opcional - 1.7.9 branch
-- [ ] Función de suspención real - 1.8.0 brach
-- [ ] actualizacion del kernel -2.x branch
+- [ ] actualizacion del kernel y Función de suspención real - 2.x branch
 - [ ] actualizar 3D APIs - 2.1.x
 - [ ] soporte HDMI - 2.2.x
-- [ ] Vulkan?? - Future
 
 # update firmware 1.7.9.2 fix: <br>
 https://github.com/Ninoh-FOX/RG350-ROGUE-CFW/releases/tag/1.7.9.2fix
