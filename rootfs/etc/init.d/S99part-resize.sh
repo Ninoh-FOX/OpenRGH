@@ -51,11 +51,20 @@ clear
 echo "Resizing and checking the data partition. Please be patient."
 sleep 3
 set +e
+
+(echo d
+echo 2
+echo n
+echo
+echo
+echo
+echo
+echo w
+) | fdisk /dev/${DEVICE}
+/usr/sbin/partx -u /dev/${DEVICE}
 /bin/umount -l /dev/${DEVICE}p${PART_NUM} 1>/dev/null 2>&1
 /usr/sbin/e2fsck -f -y -C 0 /dev/${DEVICE}p${PART_NUM}
 /usr/sbin/e2fsck -f /dev/${DEVICE}p${PART_NUM}
-sleep 3
-resizepart /dev/${DEVICE} ${PART_NUM} ${SIZE}
 resize2fs -p /dev/${DEVICE}p${PART_NUM} || failexit
 /bin/mount -t ext4 -o noatime,nodiratime,rw /dev/${DEVICE}p${PART_NUM} /media/data
 touch /media/data/.partition_resized
