@@ -63,6 +63,7 @@ echo w
 ) | fdisk /dev/${DEVICE}
 /usr/sbin/partx -u /dev/${DEVICE}
 /bin/umount -l /dev/${DEVICE}p${PART_NUM} 1>/dev/null 2>&1
+resizepart /dev/${DEVICE} ${PART_NUM} ${SIZE}
 /usr/sbin/e2fsck -f -y -C 0 /dev/${DEVICE}p${PART_NUM}
 /usr/sbin/e2fsck -f /dev/${DEVICE}p${PART_NUM}
 resize2fs -p /dev/${DEVICE}p${PART_NUM} || failexit
