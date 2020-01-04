@@ -15,6 +15,9 @@ Special Thanks to Pcercuei (https://github.com/pcercuei), Mthuurne (https://gith
 - [ ] Modernize 3D APIs - 2.1.x
 - [ ] HDMI support - 2.2.x
 
+# update firmware 1.7.9.3: <br>
+https://github.com/Ninoh-FOX/RG350-ROGUE-CFW/releases/tag/1.7.9.3
+
 # update firmware 1.7.9.2 fix: <br>
 https://github.com/Ninoh-FOX/RG350-ROGUE-CFW/releases/tag/1.7.9.2fix
 
@@ -43,6 +46,14 @@ https://drive.google.com/file/d/13iNEBQlbFkueCSAsnWpv8cVGKJv8ihpX/view
 https://drive.google.com/file/d/1kMVWTWTym6TfN3_nrM9N2QSFf2dUxxjp/view
 
 ## Changelog:<br>
+
+### 1.7.9.3:<br>
+
+1. update again file system, repartition and expander scripts.
+2. Gmenu2x analog stick control is removed
+3. Battery accurasy.
+4. Stock clock app update with a new redesign. thanks to Rafa Vico (https://github.com/RafaVico)
+5. Text editor opk buttons fixers. thanks to Rafa Vico (https://github.com/RafaVico)
 
 ### 1.7.9.2 fix:<br>
 
@@ -188,6 +199,9 @@ Agradecimiento especial para Pcercuei (https://github.com/pcercuei), Mthuurne (h
 - [ ] actualizar 3D APIs - 2.1.x
 - [ ] soporte HDMI - 2.2.x
 
+# update firmware 1.7.9.3: <br>
+https://github.com/Ninoh-FOX/RG350-ROGUE-CFW/releases/tag/1.7.9.3
+
 # update firmware 1.7.9.2 fix: <br>
 https://github.com/Ninoh-FOX/RG350-ROGUE-CFW/releases/tag/1.7.9.2fix
 
@@ -214,7 +228,13 @@ https://drive.google.com/file/d/1kMVWTWTym6TfN3_nrM9N2QSFf2dUxxjp/view
 
 ## Lista de cambios:<br>
 
-## Changelog:<br>
+### 1.7.9.3:<br>
+
+1. Revisado y actualizado otra vez los script del sistema de archivos, reparticion y expansion.
+2. El control analogico ha sido removido de Gmenu2x.
+3. Ajustada la bateria.
+4. El reloj de serie ha sido actualizado con un nuevo rediseño. Gracias a Rafa Vico (https://github.com/RafaVico)
+5. Corregido los botones del editor de texto. Gracias a Rafa Vico (https://github.com/RafaVico)
 
 ### 1.7.9.2 fix:<br>
 
