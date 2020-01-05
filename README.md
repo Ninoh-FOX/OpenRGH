@@ -1,4 +1,4 @@
-<p align="center"><img class="center" src ="https://raw.githubusercontent.com/Ninoh-FOX/RG350-ROGUE-CFW/master/logo.png"></p>
+<p align="center"><img class="center" src ="https://raw.githubusercontent.com/Ninoh-FOX/RG350-ROGUE-CFW/master/logos/logo.png"></p>
 
 # RG350 firmware "Rogue" edition<br>
 ### An independent fork of the OpenDingux project, focused on improving the user experience. 
