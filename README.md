@@ -15,6 +15,9 @@ Special Thanks to Pcercuei (https://github.com/pcercuei), Mthuurne (https://gith
 - [ ] Modernize 3D APIs - 2.1.x
 - [ ] HDMI support - 2.2.x
 
+# update firmware 1.7.9.4: <br>
+https://github.com/Ninoh-FOX/RG350-ROGUE-CFW/releases/tag/1.7.9.4
+
 # update firmware 1.7.9.3: <br>
 https://github.com/Ninoh-FOX/RG350-ROGUE-CFW/releases/tag/1.7.9.3
 
@@ -46,6 +49,12 @@ https://drive.google.com/file/d/13iNEBQlbFkueCSAsnWpv8cVGKJv8ihpX/view
 https://drive.google.com/file/d/1kMVWTWTym6TfN3_nrM9N2QSFf2dUxxjp/view
 
 ## Changelog:<br>
+
+### 1.7.9.4:<br>
+
+1. Fix clock hour reset when poweroff the console.
+2. Gmenu2x now can show two type of previews (put in /(romsdir)/.previews/).
+3. RG350test now is in the system, not in opk.
 
 ### 1.7.9.3:<br>
 
@@ -199,6 +208,9 @@ Agradecimiento especial para Pcercuei (https://github.com/pcercuei), Mthuurne (h
 - [ ] actualizar 3D APIs - 2.1.x
 - [ ] soporte HDMI - 2.2.x
 
+# update firmware 1.7.9.4: <br>
+https://github.com/Ninoh-FOX/RG350-ROGUE-CFW/releases/tag/1.7.9.4
+
 # update firmware 1.7.9.3: <br>
 https://github.com/Ninoh-FOX/RG350-ROGUE-CFW/releases/tag/1.7.9.3
 
@@ -227,6 +239,12 @@ https://drive.google.com/file/d/13iNEBQlbFkueCSAsnWpv8cVGKJv8ihpX/view
 https://drive.google.com/file/d/1kMVWTWTym6TfN3_nrM9N2QSFf2dUxxjp/view
 
 ## Lista de cambios:<br>
+
+### 1.7.9.4:<br>
+
+1. Corregido la nueva aplicacion de reloj/calendario, ya no se resetea la hora.
+2. Gmenu2x ahora puede mostrar dos tipos de muestra de imagen de juego (poner en /(directorio roms)/.previews/).
+3. RG350test ahora es parte del sistema, ya no más en opk.
 
 ### 1.7.9.3:<br>
 
