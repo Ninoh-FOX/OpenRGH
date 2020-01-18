@@ -58,6 +58,7 @@ https://drive.google.com/file/d/1kMVWTWTym6TfN3_nrM9N2QSFf2dUxxjp/view
 1. Fixed and updated SDL2 libraries.
 2. Insert Scriptrunner app, now you can format the external sdcard in fat32, exfat or ext3 in the console.
 3. Fixed errors in games that not run.
+4. Fixed Gmenu2x duplicate icons when this is edit
 
 ### 1.7.9.4:<br>
 
