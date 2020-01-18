@@ -15,6 +15,9 @@ Special Thanks to Pcercuei (https://github.com/pcercuei), Mthuurne (https://gith
 - [ ] Modernize 3D APIs - 2.1.x
 - [ ] HDMI support - 2.2.x
 
+# update firmware 1.7.9.5: <br>
+https://github.com/Ninoh-FOX/RG350-ROGUE-CFW/releases/tag/1.7.9.5
+
 # update firmware 1.7.9.4: <br>
 https://github.com/Ninoh-FOX/RG350-ROGUE-CFW/releases/tag/1.7.9.4
 
@@ -49,6 +52,12 @@ https://drive.google.com/file/d/13iNEBQlbFkueCSAsnWpv8cVGKJv8ihpX/view
 https://drive.google.com/file/d/1kMVWTWTym6TfN3_nrM9N2QSFf2dUxxjp/view
 
 ## Changelog:<br>
+
+### 1.7.9.5:<br>
+
+1. Fixed and updated SDL2 libraries.
+2. Insert Scriptrunner app, now you can format the external sdcard in fat32, exfat or ext3 in the console.
+3. Fixed errors in games that not run.
 
 ### 1.7.9.4:<br>
 
@@ -239,6 +248,12 @@ https://drive.google.com/file/d/13iNEBQlbFkueCSAsnWpv8cVGKJv8ihpX/view
 https://drive.google.com/file/d/1kMVWTWTym6TfN3_nrM9N2QSFf2dUxxjp/view
 
 ## Lista de cambios:<br>
+
+### 1.7.9.5:<br>
+
+1. Corregidas y actualizadas las librerias SDL2.
+2. Insertado el opk Scriptrunner, ahora puedes formatear la sdcard externa en fat32, exfat o ext3 desde la consola.
+3. Corregido los juegos que no cargaban.
 
 ### 1.7.9.4:<br>
 
