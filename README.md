@@ -171,6 +171,7 @@ Fixed the lost  library ncurses 5 from the buildroot code (this is now ncursesw 
 ### **for Windows:<br>**
 2. Format the new sdcard / internal sdcard with SD FORMATTER 5.0.1 ( https://www.sdcard.org/downloads/formatter/ ) two times.
 3. Download Win32 disk imager ( https://sourceforge.net/projects/win32diskimager/ ) and flash (write) the FW base image to the sdcard.
+if not work w32di try this https://www.balena.io/etcher/
 #### 4. DO NOT RESIZE THE EXT4 PARTITION IN WINDOWS OR LINUX!!<br> just put the sdcard inside the console and follow the on-screen instructions.
 
 ### **for Linux:<br>**
@@ -365,6 +366,7 @@ Añadida la libreria perdida ncurses v5, necesaria para antiguos emuladores, deb
 ### **para Windows:<br>**
 2. Formatea la microsd interna o nueva con SD FORMATTER 5.0.1 ( https://www.sdcard.org/downloads/formatter/ ) dos veces.
 3. Descarga Win32 disk imager ( https://sourceforge.net/projects/win32diskimager/ ) y flashea (escribir) la imagen del cfw (sd_image.bin) en la microsd.
+si no funcion W32DI pruebe este https://www.balena.io/etcher/
 #### 4. NO EXTIENDAS LA PARTICION EXT4 EN WINDOWS!!<br> solo pon la microsd dentro de la consola, enciendela y sigue las instrucciones.
 
 ### **para Linux:<br>**
