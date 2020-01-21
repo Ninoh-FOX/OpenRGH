@@ -160,7 +160,7 @@ Fixed the lost  library ncurses 5 from the buildroot code (this is now ncursesw 
 ## Instructions for  a clean update / fix internal sdcard:<br>
 ## NOTE: This method erases the microsd, so backup of all your files beforehand as mentioned above.
 1. Place the flasher opk file in /media/sdcard/apps.
-2. Run from your preferred launcher.
+2. Run from GMENU2X.
 3. Allow process to complete.
 4. Reboot.
 
