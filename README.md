@@ -152,7 +152,7 @@ Fixed the lost  library ncurses 5 from the buildroot code (this is now ncursesw 
 
 ## Instruction for updating from an OPK update file (No need to open the console):
 1. Place the update opk file in /media/data/apps or /media/sdcard/apps.
-2. Run from your preferred launcher.
+2. Run from GMENU2X.
 3. Allow process to complete.
 4. Reboot.
 5. If the system fails to boot, press Y to boot to the last working kernel, or X to boot to the last working rootfs. X+Y will load your previous OS version.
@@ -354,7 +354,7 @@ Añadida la libreria perdida ncurses v5, necesaria para antiguos emuladores, deb
 ## Instruciones para una actualizacion limpia o corregir tarjetas defectuosas
 ## Nota: este metodo borra la sd, has copia de tus datos antes.
 1. Coloca el flasher en OPK en /media/sdcard/apps
-2. Arranca Flasher desde el launcher que prefieras.
+2. Arranca Flasher desde GMENU2X.
 3. Espera a que el proceso termine.
 4. Reinicia
 
