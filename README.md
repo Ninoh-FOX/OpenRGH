@@ -4,7 +4,7 @@
 ### An independent fork of the OpenDingux project, focused on improving the user experience. 
 
 Thanks to Tonyjin for toolchain (https://github.com/tonyjih)
-Special Thanks to Pcercuei (https://github.com/pcercuei), Mthuurne (https://github.com/mthuurne) and opendingux (https://github.com/OpenDingux) for the original code base system.
+Special Thanks to Pcercuei (https://github.com/pcercuei), Mthuurne (https://github.com/mthuurne) and OpenDingux (https://github.com/OpenDingux) for the original code base system.
 
 ### instrucciones en español más abajo.
 
@@ -56,112 +56,112 @@ https://drive.google.com/file/d/1kMVWTWTym6TfN3_nrM9N2QSFf2dUxxjp/view
 ### 1.7.9.5:<br>
 
 1. Fixed and updated SDL2 libraries.
-2. Insert Scriptrunner app, now you can format the external sdcard in fat32, exfat or ext3 in the console.
-3. Fixed errors in games that not run.
-4. Fixed Gmenu2x duplicate icons when this is edit
+2. Insert Scriptrunner app, you can now format the external sdcard in fat32, exfat or ext3 in the console.
+3. Fixed errors in games that won't run.
+4. Fixed Gmenu2x duplicating icons upon editing.
 
 ### 1.7.9.4:<br>
 
-1. Fix clock hour reset when poweroff the console.
-2. Gmenu2x now can show two type of previews (put in /(romsdir)/.previews/).
-3. RG350test now is in the system, not in opk.
+1. Fixed the clocks hour resetting when the console is powered off.
+2. Gmenu2x can now show two types of previews (put in /(romsdir)/.previews/).
+3. RG350 test is now inside of the system, not in the opk.
 
 ### 1.7.9.3:<br>
 
-1. update again file system, repartition and expander scripts.
-2. Gmenu2x analog stick control is removed
-3. Battery accurasy.
-4. Stock clock app update with a new redesign. thanks to Rafa Vico (https://github.com/RafaVico)
-5. Text editor opk buttons fixers. thanks to Rafa Vico (https://github.com/RafaVico)
+1. updated the file system again, repartition and expander scripts.
+2. Gmenu2x analog stick control is removed.
+3. Better battery accuracy.
+4. Stock clock app updated with a new redesign. Thanks to Rafa Vico (https://github.com/RafaVico).
+5. Text editor opk buttons fixed. Thanks to Rafa Vico (https://github.com/RafaVico).
 
 ### 1.7.9.2 fix:<br>
 
-Fixed the lost  library ncurses 5 from the buildroot code (this is now ncursesw 6.1 in the toolchain github https://github.com/tonyjih/RG350_buildroot/commit/f167487b5a0450cebd99256400ded18734f2f25d and now the olds emulator not work). This is necessary for some old old emulators.
+Fixed the last library, ncurses 5 from the buildroot code (this is now ncurses 6.1 in the toolchain GitHub https://github.com/tonyjih/RG350_buildroot/commit/f167487b5a0450cebd99256400ded18734f2f25d and now the olds emulators might not work). This is necessary for some older emulators.
 
 ### 1.7.9.2:<br>
 
-1. Optimized update opk script for that ckeck and repair boot partition.
-2. Fix flasher script, not more error segmentation fault, but now the flasher for opk time take about 15min, all is automatized, so you not need do nothing.
-3. Gmenu2x updated, now you can edit the opk icons, name, description and files filtre.
-4. Gmenu2x now can on/off the screen with the power button, not more "ghost wakeups". thanks to Rafa Vico (https://github.com/RafaVico)
-5. RG350 test updated, now you can see the sdcards free space. thanks to Rafa Vico (https://github.com/RafaVico)
-6. Updated Esotoric to the last version. Thanks to Podulator (https://github.com/podulator/esoteric)
+1. Optimized update opk script for the check and repair boot partition.
+2. Fixed the flasher script, no more error segmentation fault, but now the flasher will take about 15 minutes, all is automized, so you don't need do anything.
+3. Gmenu2x updated, you can now edit the opk icons, name, description and files filter.
+4. Gmenu2x you can now turn the screen on and off with the power button, no more "ghost wakeups". Thanks to Rafa Vico (https://github.com/RafaVico).
+5. RG350 test updated, you can now see the SD card's free space. Thanks to Rafa Vico (https://github.com/RafaVico).
+6. Updated Esotoric to the lastest version. Thanks to Podulator (https://github.com/podulator/esoteric).
 
 ### 1.7.9.1:<br>
 
-1. Optimized the first boot set partition and format file system, this no is rewhite anymore, only with flasher install.
-2. Optimized the check files in the boots.
-3. Optimized flasher install.
-4. Gmenu2X now has a Docs reader (txt) thanks to Rafa Vico (https://github.com/RafaVico)
-5. Gmenu2x now show the porcentage of the battery too.
-6. Gmenu2x can too now change the cpu of the console betweer MAX and MIN for save battery (for example for GBC emu)<br>
+1. Optimized the first boot set partition and format file system, this no is rewrite anymore, only with flasher installation.
+2. Optimized the file check at boot.
+3. Optimized the flasher.
+4. Gmenu2X now has a document reader (.txt). Thanks to Rafa Vico (https://github.com/RafaVico).
+5. Gmenu2x will now show the percentage of the battery.
+6. Gmenu2x can now change the CPU of the console between MAX and MIN freqencies to save battery (for example for GBC emulation).<br>
 ![](https://raw.githubusercontent.com/Ninoh-FOX/RG350-ROGUE-CFW/master/screenshots/cpucontrol1.png)
 ![](https://raw.githubusercontent.com/Ninoh-FOX/RG350-ROGUE-CFW/master/screenshots/cpucontrol2.png)
-7. Optimized kernel control in screen hz (thanks to pcercuei https://boards.dingoonity.org/retro-game-350rg-350/screen-now-going-bad/msg191784/#msg191784)
+7. Optimized the kernel control in-screen Hz. (Thanks to Pcercuei, https://boards.dingoonity.org/retro-game-350rg-350/screen-now-going-bad/msg191784/#msg191784).
 
 ### 1.7.9:<br>
 
-1. Changed the boot logo (again), OpenDingux logo removed out of respect to the original creator of the system.<br>
+1. Changed the boot logo (again), OpenDingux logo removed with respect to the original creator of the system.<br>
 ![](https://raw.githubusercontent.com/Ninoh-FOX/RG350-ROGUE-CFW/master/logo_rg350.jpg)
-2. All references to OpenDingux removed, except in the system information as thanks for the original base system.<br>
+2. All references to OpenDingux have been removed, except in the system information as a thank you for the original software.<br>
 ![](https://raw.githubusercontent.com/Ninoh-FOX/RG350-ROGUE-CFW/master/system_info.png)
-3. Gmenu2x now read and write all from home.
-4. Esoteric added as an optional launcher in the system. (Thanks to Podulator https://github.com/podulator/esoteric).
-5. Updated the RG350Tests app in sd_image (thanks to https://github.com/RafaVico).
+3. Gmenu2x can now read and write all from the home screen.
+4. Esoteric added as an optional launcher for the system. (Thanks to Podulator https://github.com/podulator/esoteric).
+5. Updated the RG350 tests app in sd_image. (thanks to https://github.com/RafaVico).
 6. Now sd_image too in .opk file, you can now reflash the sdcard without open the console (note: this erases everything on the internal sdcard).
-7. Now works with update and flash .opk files in another launchers as well.
+7. The update and flash .opk files now work in other launchers as well.
 
 
 ### 1.7.8.2:<br>
 
-1. Changed boot logo.<br>
+1. Changed the boot logo.<br>
 ![](https://raw.githubusercontent.com/Ninoh-FOX/RG350-ROGUE-CFW/master/logos/67d0e5b053de2d8c2d813fe0459d11a2o.jpg)
-2. New name for firmware.
-3. Updated some libs.
-4. Gmenu2x is now mounted in /local/home/.gmenu2x
+2. Renamed the firmware.
+3. Updated some libraries.
+4. Gmenu2x is now mounted in /local/home/.gmenu2x .
 
 ### 1.7.8.1:<br>
-1. Boot partition is now mounted in /media/system in RW mode for recovering the system from a PC if possible.
+1. The boot partition is now mounted in /media/system in RW mode for recovering the system from a PC whenever possible.
 2. Gmenu2x can now link .opk and .dge files.
 3. New boot logo.
-4. New sdcard flash image (thanks to https://github.com/gcwnow/imager )
+4. New SD card flash image. (Thanks to https://github.com/gcwnow/imager ).
 
 ### 1.7.8:<br>
 1. lazy_itable_init = 0 and lazy_journal_init = 0 support added to EXT4 file system.
-2. Display version in System Info app.
+2. The firmware will now display versions in the System Info app.
 
 ![](https://fotos.subefotos.com/d74d4f1ba67f0d5f556aa7a43e7c7c84o.jpg)
 
 ### 1.7.7:<br>
-1. exfAT support added - no more need to download a utility to format 64GB+ SD cards
-2. Default SD card mount changed to /media/sdcard - No having to re-do paths when swapping SD cards
-3. Auto swap file and partition resize - This takes a while, allow it to finish.  Progress will be shown on screen during first boot
-4. Duplicate modules removed from modules.squashfs 
-5. Fixed the resize process in old stock firmwares (bad ext4 partition)
-6. Fixed power off and reboot error messages
-7. Fixed slowdowns and stuttering during first 15 minutes after first boot
-8. Rebuild mininit-syspart from original opendingux code. (Thanks to https://github.com/OpenDingux/mininit)
-9. Autoremove old configs of the system in the first boot.
-10. Change file system table.
-11. Restore USB-HID support.
-12. Update libshake from the original code: https://github.com/zear/libShake
+1. exFAT support added - there is now no need to download a utility to format 64GB+ SD cards.
+2. Default SD card mount changed to /media/sdcard - you don't have to re-do paths when swapping SD cards anymore.
+3. Auto swap files and partition resize added - this takes a while, allow it to finish. The progress will be shown on screen during the first boot.
+4. Duplicate modules have removed from modules.squashfs .
+5. Fixed the resize process in old stock firmwares (Bad ext4 partition).
+6. Fixed power off and reboot error messages.
+7. Fixed slowdowns and stuttering during first 15 minutes after first boot.
+8. Rebuilt mininit-syspart from original opendingux code. (Thanks to https://github.com/OpenDingux/mininit).
+9. Autoremove old system configs at the first boot.
+10. Changed file system table.
+11. Restored USB-HID support.
+12. Updated libshake from the original code. ( https://github.com/zear/libShake )
 
 
 ## Instructions:<br>
-### NOTE: If is your first time installing this CFW, the file to use is sd_image.bin or flasher opk, afterwards you can use always use opks update files for future releases. Using the sd_image.bin or flasher opk erases all data on the sdcard!! If you're updating from another CFW you may want to make a backup of the folders local/home and local/app first to preserve emulators/apps, their settings, and your game saves.
+### NOTE: If is your first time installing this CFW, the file to use is sd_image.bin or flasher opk, afterwards you can use always use opk update files for future releases. Using the sd_image.bin or flasher opk erases all data on the sdcard!! If you're updating from another CFW you may want to make a backup of the folders local/home and local/app first to preserve emulators/apps, their settings, and your game saves. (It is recommended to always make backups!)
 
-## Instruction for updating from an OPK update file (No need to open the console):
-1. Place the update opk file in /media/data/apps or /media/sdcard/apps.
-2. Run from GMENU2X.
-3. Allow process to complete.
+## Instructions for updating from an OPK update file (No need to open the console):
+1. Place the update .opk file in /media/data/apps or /media/sdcard/apps.
+2. Run the .opk from GMENU2X.
+3. Allow the process to complete.
 4. Reboot.
 5. If the system fails to boot, press Y to boot to the last working kernel, or X to boot to the last working rootfs. X+Y will load your previous OS version.
 
-## Instructions for  a clean update / fix internal sdcard:<br>
-## NOTE: This method erases the microsd, so backup of all your files beforehand as mentioned above.
-1. Place the flasher opk file in /media/sdcard/apps.
-2. Run from GMENU2X.
-3. Allow process to complete.
+## Instructions for a clean update / fix internal sdcard:<br>
+## NOTE: This method erases the microSD, so backup of all your files beforehand as mentioned above.
+1. Place the flasher .opk file in /media/sdcard/apps.
+2. Run the .opk from GMENU2X.
+3. Allow the process to complete.
 4. Reboot.
 
 ## Instructions when changing the internal sdcard, i.e. using a bigger/new sdcard:<br>
@@ -171,20 +171,20 @@ Fixed the lost  library ncurses 5 from the buildroot code (this is now ncursesw 
 ### **for Windows:<br>**
 2. Format the new sdcard / internal sdcard with SD FORMATTER 5.0.1 ( https://www.sdcard.org/downloads/formatter/ ) two times.
 3. Download Win32 disk imager ( https://sourceforge.net/projects/win32diskimager/ ) and flash (write) the FW base image to the sdcard.
-if not work w32di try this https://www.balena.io/etcher/
-#### 4. DO NOT RESIZE THE EXT4 PARTITION IN WINDOWS OR LINUX!!<br> just put the sdcard inside the console and follow the on-screen instructions.
+If Win32 Disk Imager didn't work, you can try Etcher ( https://www.balena.io/etcher/ ).
+#### 4. DO NOT RESIZE THE EXT4 PARTITION IN WINDOWS OR LINUX!!<br> Just put the sdcard inside the console and follow the on-screen instructions.
 
 ### **for Linux:<br>**
-2. Format the new sdcard / internel sdcard with gnome-disk-utility.
-3. Flash the FW base image in the sdcard with gnome-disk-utility.
+2. Format the new SD card / internel SD card with gnome-disk-utility.
+3. Flash the FW base image in the SD card with gnome-disk-utility.
    Or type in a terminal:
    
-   sudo dd if=sd_image.bin of=/dev/[sdcard mount point]
-#### 4. Not resize!! Just put the internal sdcard inside the console and follow the on-screen instructions.
+   sudo dd if=sd_image.bin of=/dev/[SD card mount point]
+#### 4. Do not resize the partitions!! Just put the internal SD card inside the console and follow the on-screen instructions.
 
 ## Intructions for recovery or external update:<br>
 
-thanks to https://github.com/gcwnow wiki
+Thanks to https://github.com/gcwnow wiki.
 
 This works for GMENUNX.
 
