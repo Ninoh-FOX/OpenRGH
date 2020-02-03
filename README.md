@@ -15,6 +15,9 @@ Special Thanks to Pcercuei (https://github.com/pcercuei), Mthuurne (https://gith
 - [ ] Modernize 3D APIs - 2.1.x
 - [ ] HDMI support - 2.2.x
 
+# update firmware 1.7.9.6: <br>
+https://github.com/Ninoh-FOX/RG350-ROGUE-CFW/releases/tag/1.7.9.6
+
 # update firmware 1.7.9.5: <br>
 https://github.com/Ninoh-FOX/RG350-ROGUE-CFW/releases/tag/1.7.9.5
 
@@ -52,6 +55,13 @@ https://drive.google.com/file/d/13iNEBQlbFkueCSAsnWpv8cVGKJv8ihpX/view
 https://drive.google.com/file/d/1kMVWTWTym6TfN3_nrM9N2QSFf2dUxxjp/view
 
 ## Changelog:<br>
+
+### 1.7.9.6:<br>
+
+1. Fixed buttons orden in DinguxCommander.
+2. Fixed buttons and colors in GCW-Connect and change name to ROGUE Connect.
+3. add script for format the external sdcard in ext4.
+4. kernel update modules usb wifi drivers.
 
 ### 1.7.9.5:<br>
 
