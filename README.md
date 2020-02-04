@@ -3,7 +3,7 @@
 # RG350 firmware "Rogue" edition<br>
 ### An independent fork of the OpenDingux project, focused on improving the user experience. 
 
-Thanks to Tonyjin for toolchain (https://github.com/tonyjih)
+Thanks to Tonyjin for toolchain (https://github.com/tonyjih).
 Special Thanks to Pcercuei (https://github.com/pcercuei), Mthuurne (https://github.com/mthuurne) and OpenDingux (https://github.com/OpenDingux) for the original code base system.
 
 ### instrucciones en español más abajo.
@@ -58,10 +58,10 @@ https://drive.google.com/file/d/1kMVWTWTym6TfN3_nrM9N2QSFf2dUxxjp/view
 
 ### 1.7.9.6:<br>
 
-1. Fixed buttons orden in DinguxCommander.
-2. Fixed buttons and colors in GCW-Connect and change name to ROGUE Connect.
-3. add script for format the external sdcard in ext4.
-4. kernel update modules usb wifi drivers.
+1. Fixed button order in DinguxCommander.
+2. Fixed buttons and colors in GCW-Connect and changed name to ROGUE Connect.
+3. Added script to format the external sdcard as ext4.
+4. kernel update for USB WiFi drivers.
 
 ### 1.7.9.5:<br>
 
@@ -86,7 +86,7 @@ https://drive.google.com/file/d/1kMVWTWTym6TfN3_nrM9N2QSFf2dUxxjp/view
 
 ### 1.7.9.2 fix:<br>
 
-Fixed the last library, ncurses 5 from the buildroot code (this is now ncurses 6.1 in the toolchain GitHub https://github.com/tonyjih/RG350_buildroot/commit/f167487b5a0450cebd99256400ded18734f2f25d and now the olds emulators might not work). This is necessary for some older emulators.
+Fixed the last library, ncurses 5 from the buildroot code (this is now ncurses 6.1 in the toolchain GitHub https://github.com/tonyjih/RG350_buildroot/commit/f167487b5a0450cebd99256400ded18734f2f25d and now old emulators might not work). This is necessary for some older emulators.
 
 ### 1.7.9.2:<br>
 
@@ -107,7 +107,7 @@ Fixed the last library, ncurses 5 from the buildroot code (this is now ncurses 6
 6. Gmenu2x can now change the CPU of the console between MAX and MIN freqencies to save battery (for example for GBC emulation).<br>
 ![](https://raw.githubusercontent.com/Ninoh-FOX/RG350-ROGUE-CFW/master/screenshots/cpucontrol1.png)
 ![](https://raw.githubusercontent.com/Ninoh-FOX/RG350-ROGUE-CFW/master/screenshots/cpucontrol2.png)
-7. Optimized the kernel control in-screen Hz. (Thanks to Pcercuei, https://boards.dingoonity.org/retro-game-350rg-350/screen-now-going-bad/msg191784/#msg191784).
+7. Optimized the kernel control in-screen Hz. Thanks to Pcercuei (https://boards.dingoonity.org/retro-game-350rg-350/screen-now-going-bad/msg191784/#msg191784).
 
 ### 1.7.9:<br>
 
@@ -116,8 +116,8 @@ Fixed the last library, ncurses 5 from the buildroot code (this is now ncurses 6
 2. All references to OpenDingux have been removed, except in the system information as a thank you for the original software.<br>
 ![](https://raw.githubusercontent.com/Ninoh-FOX/RG350-ROGUE-CFW/master/system_info.png)
 3. Gmenu2x can now read and write all from the home screen.
-4. Esoteric added as an optional launcher for the system. (Thanks to Podulator https://github.com/podulator/esoteric).
-5. Updated the RG350 tests app in sd_image. (thanks to https://github.com/RafaVico).
+4. Esoteric added as an optional launcher for the system. Thanks to Podulator (https://github.com/podulator/esoteric).
+5. Updated the RG350 tests app in sd_image. Thanks to Rafa Vico (https://github.com/RafaVico).
 6. Now sd_image too in .opk file, you can now reflash the sdcard without open the console (note: this erases everything on the internal sdcard).
 7. The update and flash .opk files now work in other launchers as well.
 
@@ -134,7 +134,7 @@ Fixed the last library, ncurses 5 from the buildroot code (this is now ncurses 6
 1. The boot partition is now mounted in /media/system in RW mode for recovering the system from a PC whenever possible.
 2. Gmenu2x can now link .opk and .dge files.
 3. New boot logo.
-4. New SD card flash image. (Thanks to https://github.com/gcwnow/imager ).
+4. New SD card flash image. Thanks to the GCW Zero Image Generation Tools (https://github.com/gcwnow/imager).
 
 ### 1.7.8:<br>
 1. lazy_itable_init = 0 and lazy_journal_init = 0 support added to EXT4 file system.
@@ -150,11 +150,11 @@ Fixed the last library, ncurses 5 from the buildroot code (this is now ncurses 6
 5. Fixed the resize process in old stock firmwares (Bad ext4 partition).
 6. Fixed power off and reboot error messages.
 7. Fixed slowdowns and stuttering during first 15 minutes after first boot.
-8. Rebuilt mininit-syspart from original opendingux code. (Thanks to https://github.com/OpenDingux/mininit).
+8. Rebuilt mininit-syspart from original opendingux code. Thanks to OpenDingux's Mininit (https://github.com/OpenDingux/mininit).
 9. Autoremove old system configs at the first boot.
 10. Changed file system table.
 11. Restored USB-HID support.
-12. Updated libshake from the original code. ( https://github.com/zear/libShake )
+12. Updated libshake from the original code. (https://github.com/zear/libShake)
 
 
 ## Instructions:<br>
@@ -194,7 +194,7 @@ If Win32 Disk Imager didn't work, you can try Etcher ( https://www.balena.io/etc
 
 ## Intructions for recovery or external update:<br>
 
-Thanks to https://github.com/gcwnow wiki.
+Thanks to gcwnow's wiki (https://github.com/gcwnow).
 
 This works for GMENUNX.
 
