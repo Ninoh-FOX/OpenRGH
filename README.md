@@ -68,6 +68,7 @@ https://drive.google.com/file/d/1kMVWTWTym6TfN3_nrM9N2QSFf2dUxxjp/view
 ![](https://raw.githubusercontent.com/Ninoh-FOX/RG350-ROGUE-CFW/master/screenshots/screenshot013.png)
 2. Fixed dpad-analog emulator.
 3. Update linux-firmware package to the last version (16-03-2020)
+4. In the previews on fullscreen now you can changer the opacy in gmenu2x options.
 
 ### 1.7.9.7:<br>
 
@@ -296,6 +297,7 @@ https://drive.google.com/file/d/1kMVWTWTym6TfN3_nrM9N2QSFf2dUxxjp/view
 ![](https://raw.githubusercontent.com/Ninoh-FOX/RG350-ROGUE-CFW/master/screenshots/screenshot013.png)
 2. Corregido la emulacion del analogico como dpad.
 3. actualizado el paquete linux-firmware a la ultima version (16-03-2020)
+4. Ahora puedes cambiar la opacidad de la captura de la lista de juegos en pantalla completa en las opciones de gmenu2x.
 
 ### 1.7.9.7:<br>
 
