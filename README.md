@@ -15,6 +15,9 @@ Special Thanks to Pcercuei (https://github.com/pcercuei), Mthuurne (https://gith
 - [ ] Modernize 3D APIs - 2.1.x
 - [ ] HDMI support - 2.2.x
 
+# update firmware 1.7.9.8: <br>
+https://github.com/Ninoh-FOX/RG350-ROGUE-CFW/releases/tag/1.7.9.8
+
 # update firmware 1.7.9.7: <br>
 https://github.com/Ninoh-FOX/RG350-ROGUE-CFW/releases/tag/1.7.9.7
 
@@ -58,6 +61,13 @@ https://drive.google.com/file/d/13iNEBQlbFkueCSAsnWpv8cVGKJv8ihpX/view
 https://drive.google.com/file/d/1kMVWTWTym6TfN3_nrM9N2QSFf2dUxxjp/view
 
 ## Changelog:<br>
+
+### 1.7.9.8:<br>
+
+1. Add Rogue Update Manager (thanks to Rafa Vico).
+![](https://raw.githubusercontent.com/Ninoh-FOX/RG350-ROGUE-CFW/master/screenshots/screenshot013.png)
+2. Fixed dpad-analog emulator.
+3. Update linux-firmware package to the last version (16-03-2020)
 
 ### 1.7.9.7:<br>
 
@@ -236,6 +246,9 @@ Agradecimiento especial para Pcercuei (https://github.com/pcercuei), Mthuurne (h
 - [ ] actualizar 3D APIs - 2.1.x
 - [ ] soporte HDMI - 2.2.x
 
+# update firmware 1.7.9.8: <br>
+https://github.com/Ninoh-FOX/RG350-ROGUE-CFW/releases/tag/1.7.9.8
+
 # update firmware 1.7.9.7: <br>
 https://github.com/Ninoh-FOX/RG350-ROGUE-CFW/releases/tag/1.7.9.7
 
@@ -276,6 +289,13 @@ https://drive.google.com/file/d/13iNEBQlbFkueCSAsnWpv8cVGKJv8ihpX/view
 https://drive.google.com/file/d/1kMVWTWTym6TfN3_nrM9N2QSFf2dUxxjp/view
 
 ## Lista de cambios:<br>
+
+### 1.7.9.8:<br>
+
+1. Añadido Rogue Update Manager (Gracias a Rafa Vico).
+![](https://raw.githubusercontent.com/Ninoh-FOX/RG350-ROGUE-CFW/master/screenshots/screenshot013.png)
+2. Corregido la emulacion del analogico como dpad.
+3. actualizado el paquete linux-firmware a la ultima version (16-03-2020)
 
 ### 1.7.9.7:<br>
 
