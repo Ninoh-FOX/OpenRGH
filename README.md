@@ -15,6 +15,9 @@ Special Thanks to Pcercuei (https://github.com/pcercuei), Mthuurne (https://gith
 - [ ] Modernize 3D APIs - 2.1.x
 - [ ] HDMI support - 2.2.x
 
+# update firmware 1.7.9.9: <br>
+https://github.com/Ninoh-FOX/RG350-ROGUE-CFW/releases/tag/1.7.9.9
+
 # update firmware 1.7.9.8: <br>
 https://github.com/Ninoh-FOX/RG350-ROGUE-CFW/releases/tag/1.7.9.8
 
@@ -61,6 +64,15 @@ https://drive.google.com/file/d/13iNEBQlbFkueCSAsnWpv8cVGKJv8ihpX/view
 https://drive.google.com/file/d/1kMVWTWTym6TfN3_nrM9N2QSFf2dUxxjp/view
 
 ## Changelog:<br>
+
+### 1.7.9.9:<br>
+
+1. Update Rogue Update Manager for fix the download error in flasher packages.
+2. Add Rogue App Store (Thanks to Rafa Vico).<br>
+![](https://raw.githubusercontent.com/Ninoh-FOX/RG350-ROGUE-CFW/master/screenshots/screenshot001.png)<br>
+![](https://raw.githubusercontent.com/Ninoh-FOX/RG350-ROGUE-CFW/master/screenshots/screenshot002.png)<br>
+![](https://raw.githubusercontent.com/Ninoh-FOX/RG350-ROGUE-CFW/master/screenshots/screenshot003.png)<br>
+![](https://raw.githubusercontent.com/Ninoh-FOX/RG350-ROGUE-CFW/master/screenshots/screenshot004.png)<br>
 
 ### 1.7.9.8:<br>
 
@@ -247,6 +259,9 @@ Agradecimiento especial para Pcercuei (https://github.com/pcercuei), Mthuurne (h
 - [ ] actualizar 3D APIs - 2.1.x
 - [ ] soporte HDMI - 2.2.x
 
+# update firmware 1.7.9.9: <br>
+https://github.com/Ninoh-FOX/RG350-ROGUE-CFW/releases/tag/1.7.9.9
+
 # update firmware 1.7.9.8: <br>
 https://github.com/Ninoh-FOX/RG350-ROGUE-CFW/releases/tag/1.7.9.8
 
@@ -290,6 +305,15 @@ https://drive.google.com/file/d/13iNEBQlbFkueCSAsnWpv8cVGKJv8ihpX/view
 https://drive.google.com/file/d/1kMVWTWTym6TfN3_nrM9N2QSFf2dUxxjp/view
 
 ## Lista de cambios:<br>
+
+### 1.7.9.9:<br>
+
+1. Actualizado Rogue Update Manager para corregir error de descarga en los paquetes flasher.
+2. Añadido Rogue App Manager (Gracias a Rafa Vico).<br>
+![](https://raw.githubusercontent.com/Ninoh-FOX/RG350-ROGUE-CFW/master/screenshots/screenshot001.png)<br>
+![](https://raw.githubusercontent.com/Ninoh-FOX/RG350-ROGUE-CFW/master/screenshots/screenshot002.png)<br>
+![](https://raw.githubusercontent.com/Ninoh-FOX/RG350-ROGUE-CFW/master/screenshots/screenshot003.png)<br>
+![](https://raw.githubusercontent.com/Ninoh-FOX/RG350-ROGUE-CFW/master/screenshots/screenshot004.png)<br>
 
 ### 1.7.9.8:<br>
 
