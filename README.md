@@ -84,7 +84,7 @@ https://drive.google.com/file/d/1kMVWTWTym6TfN3_nrM9N2QSFf2dUxxjp/view
 ![](https://raw.githubusercontent.com/Ninoh-FOX/POCKETGO2_ROGUE_CFW/master/screenshots/screenshot106.png)<br>
 
 
-### IMPORTANT: You have to delete the file /media/data/.linker so that all the changes are overwritten, otherwise there will be no opks that lose the name.
+### IMPORTANT: You have to delete the file /media/data/.linker so that all the changes are overwritten, otherwise there will be opks that lose the name.
 
 -Sound-
 1. Now the volume of the headphones is also saved.
