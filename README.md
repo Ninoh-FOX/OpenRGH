@@ -15,6 +15,9 @@ Special Thanks to Pcercuei (https://github.com/pcercuei), Mthuurne (https://gith
 - [ ] Modernize 3D APIs - 2.1.x
 - [ ] HDMI support - 2.2.x
 
+# update firmware 1.7.9.9Z: <br>
+https://github.com/Ninoh-FOX/RG350-ROGUE-CFW/releases/tag/1.7.9.9Z
+
 # update firmware 1.7.9.9R: <br>
 https://github.com/Ninoh-FOX/RG350-ROGUE-CFW/releases/tag/1.7.9.9R
 
@@ -67,6 +70,20 @@ https://drive.google.com/file/d/13iNEBQlbFkueCSAsnWpv8cVGKJv8ihpX/view
 https://drive.google.com/file/d/1kMVWTWTym6TfN3_nrM9N2QSFf2dUxxjp/view
 
 ## Changelog:<br>
+
+### 1.7.9.9Z:<br>
+
+-gmenu2x-
+1. Now you can change the brightness from options menu of the gmenu2x
+
+-SOUND-
+1. Finally, all sounds problems is fixed, yes, fixed, now the default volume control is Master, and the volumen keys works with this, anyway, you can change the pcm and heardphones values is you wish and the console save the changes for the next reboot.<br>
+
+-apps-
+1. Added Pixel-Fixer, for fix dead pixels if is possible.
+
+![](https://raw.githubusercontent.com/Ninoh-FOX/POCKETGO2_ROGUE_CFW/master/screenshots/screenshotalsa.png)<br>
+
 
 ### 1.7.9.9R:<br>
 
