@@ -15,6 +15,12 @@ Special Thanks to Pcercuei (https://github.com/pcercuei), Mthuurne (https://gith
 - [ ] Modernize 3D APIs - 2.1.x
 - [ ] HDMI support - 2.2.x
 
+# update firmware 1.7.10: <br>
+https://github.com/Ninoh-FOX/RG350-ROGUE-CFW/releases/tag/1.7.10
+
+# update firmware 1.7.10M: <br>
+https://github.com/Ninoh-FOX/RG350-ROGUE-CFW/releases/tag/1.7.10M
+
 # update firmware 1.7.9.9Z: <br>
 https://github.com/Ninoh-FOX/RG350-ROGUE-CFW/releases/tag/1.7.9.9Z
 
@@ -70,6 +76,34 @@ https://drive.google.com/file/d/13iNEBQlbFkueCSAsnWpv8cVGKJv8ihpX/view
 https://drive.google.com/file/d/1kMVWTWTym6TfN3_nrM9N2QSFf2dUxxjp/view
 
 ## Changelog:<br>
+
+### 1.7.10 - 1.7.10M:<br>
+
+-gmenu2x-
+Several changes have been added, including:
+- option to activate or deactivate analogs from settings.
+- option to change brightness
+- new theme in pixel mode (this does not choke all fonts)
+- New way to monitor the battery.
+- the titles can now be read in two lines
+there are more changes, but I don't remember them all XD
+
+-kernel-
+- boot mode has been changed, now read mininit-syspart file from boot partition. This way you can update without having to recompile the kernel.
+
+- Added DRM drivers, in case one day the hdmi code for 3.12 comes out
+
+- cleaned unnecessary drivers.
+
+- gpu frequency corrected according to the gpu.
+
+- Battery capacity has been corrected.
+
+-General-
+
+- Added support for RG350M
+- Added ROGUE Manual
+- Added news combo keys (see the manual)
 
 ### 1.7.9.9Z:<br>
 
