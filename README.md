@@ -95,7 +95,7 @@ there are more changes, but I don't remember them all XD
 
 - cleaned unnecessary drivers.
 
-- gpu frequency corrected according to the gpu.
+- gpu frequency corrected according to the cpu.
 
 - Battery capacity has been corrected.
 
