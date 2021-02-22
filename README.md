@@ -58,19 +58,19 @@ When the whole process is finished you can create the installation packages or t
 
 for RG350M
 
-: ~/toolchain/updaters$ ./create_kernel_m.sh (this creates a kernel update package)
+: ~/toolchain/updaters$ ./create_kernel_rg350m.sh (this creates a kernel update package)
 
-: ~/toolchain/updaters$ ./create_updater_m.sh (this creates a complete system update package)
+: ~/toolchain/updaters$ ./create_updater_rg350m.sh (this creates a complete system update package)
 
-: ~/toolchain/updaters/imager_m$ sudo ./create_sdimage.sh (this creates the sd_image.bin file)
+: ~/toolchain/updaters/imager_rg350m$ sudo ./create_sdimage.sh (this creates the sd_image.bin file)
 
 for RG350
 
-: ~/toolchain/updaters$ ./create_kernel.sh (this creates a kernel update package)
+: ~/toolchain/updaters$ ./create_kernel_rg350.sh (this creates a kernel update package)
 
-: ~/toolchain/updaters$ ./create_updater.sh (this creates a complete system update package)
+: ~/toolchain/updaters$ ./create_updater_rg350.sh (this creates a complete system update package)
 
-: ~/toolchain/updaters/imager$ sudo ./create_sdimage.sh (this creates the sd_image.bin file)
+: ~/toolchain/updaters/imager_rg350$ sudo ./create_sdimage.sh (this creates the sd_image.bin file)
 
 : ~/toolchain/updaters$ ./create_flashe.sh (this creates a flasher internal sdcard install package with the file sd_image.bin from previeus step)
 
